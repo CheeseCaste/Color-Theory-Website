@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css">
     <title>Comprehensive Hue</title></head>
 <body>
+    
+    <form>
+        <label for="username">What's your name?</label> 
+        <input type="text" name="username" id="username" placeholder="username" required>
+        <br><br>
+        <label for="age">How old are you?</label>
+        <input type="number" id="age" placeholder="age">
 
-    <img src="img/IMG_3408.JPG" alt="dzei">
+        <br><br>
+        <label for="Gender">Gender</label>
+        <select name="Gender" id="Gender">
+            <option value="g1">Female</option>
+            <option value="g2">Male</option>
+            <option value="g3">Dinosaur</option>
+            <option value="g4">Car</option>
+            <option value="g5">Wheelchair</option>
+            <option value="g6">Others</option>
+        </select>
 
-    <span>dot</span>
+        <br>
+        <label for="rant">Who is your greatest love?</label>
+        <br>
+        <textarea name="rant" id="rant"  cols="30" rows="25" placeholder="si..." required></textarea>
 
-    <div>
-        <p>Your <em>Guide</em></p>
-        <h1>In Comprehensive Hue</h1>
-        <p>I'll guide you on learning...</p>
-        <hr>
+        <br>
+        <input type="submit" value="submit">
 
-        <ul>
-            <li>Hue</li>
-            <li>Saturation</li>
-            <li>Value</li>
-            <li>Complementary colors</li>
-            <li>Triadic colors</li>
-        </ul>
-    </div>
-
-    <blockquote cite="https://kr.usembassy.gov/martin-luther-king-jr-dream-speech-1963/">
-        "I have a dream"
-    </blockquote>
-
-    <p style="color:aquamarine;">Aquamarine</p>
+   </form>
 
 </body>
 </html>
