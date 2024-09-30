@@ -1,37 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css">
-    <title>Comprehensive Hue</title></head>
+    <link rel="stylesheet" href="Intro.css">
+    <title>Comprehensive Hue</title>
+    <script src="Colormix.js"></script>
+</head>
 <body>
     
-    <form>
-        <label for="username">What's your name?</label> 
-        <input type="text" name="username" id="username" placeholder="username" required>
-        <br><br>
-        <label for="age">How old are you?</label>
-        <input type="number" id="age" placeholder="age">
+    <h1>Comprehensive Hue</h1>
+    <h2>Introduction: Color Mixing</h2>
+    <h3>Introduction: Hue</h3>
 
-        <br><br>
-        <label for="Gender">Gender</label>
-        <select name="Gender" id="Gender">
-            <option value="g1">Female</option>
-            <option value="g2">Male</option>
-            <option value="g3">Dinosaur</option>
-            <option value="g4">Car</option>
-            <option value="g5">Wheelchair</option>
-            <option value="g6">Others</option>
-        </select>
+    <nav>
+        <div>
+            <img src="img/Avatar.png">
+        </div>
+    </nav>
+    <main>
+        <div class="colormix">
+            <input type="color" id="color1" value="#ff0000">
+            <input type="color" id="color2" value="#0000ff">
+            <button onclick="mixColors()">Mix</button>
+            <div class="color-box" id="resultBox"></div>
 
-        <br>
-        <label for="rant">Who is your greatest love?</label>
-        <br>
-        <textarea name="rant" id="rant"  cols="30" rows="25" placeholder="si..." required></textarea>
+        </div>
+        <div class="Hue">
+            <div class="YU">
+                <div class="red"></div>
+                <div class="orange"></div>
+                <div class="yellow"></div>
+                <div class="ygreen"></div>
+                <div class="green"></div>
+                <div class="bgreen"></div>
+                <div class="blue"></div>
+                <div class="violet"></div>
+            </div>
 
-        <br>
-        <input type="submit" value="submit">
+            <div id="" style="overflow:scroll; height: 100px;">
+                <p class="Lesson">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Labore rerum repellendus sunt quaerat et amet autem itaque 
+                    numquam officiis iusto? Ut quae animi similique, quos neque 
+                    deserunt quaerat! Accusamus, adipisci.
+                </p>
+                <p class="Lesson">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Labore rerum repellendus sunt quaerat et amet autem itaque 
+                    numquam officiis iusto? Ut quae animi similique, quos neque 
+                    deserunt quaerat! Accusamus, adipisci.
+                </p>
+                <p class="Lesson">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Labore rerum repellendus sunt quaerat et amet autem itaque 
+                    numquam officiis iusto? Ut quae animi similique, quos neque 
+                    deserunt quaerat! Accusamus, adipisci.
+                </p>
+            </div>
+        </div>
 
-   </form>
-
+        <div>
+            <p class="Next"><a href="Intro_L2">Next</a></p>
+        </div>
+    </main>
 </body>
 </html>

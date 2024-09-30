@@ -17,7 +17,7 @@ body{
     background-image: 
         url("img/background.svg"),
         url("img/background2.svg");
-    background-size: 100%;
+    max-width: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat, no-repeat;
     background-position: 0% 100%, 50% 50%;
@@ -113,7 +113,7 @@ p{
     margin: 10px;
     font-family: cursive;
     font-size: 30px;
-    color: #00796B;
+    color: #0a6259;
 }
 
 /*
@@ -141,7 +141,7 @@ p{
     display: inline-block;
     font-family: cursive;
     text-decoration: none;
-    color: #DDFFFB;
+    color: #0a6259;
     font-size: 25px;
     border-radius: 10px;
     padding: 10px;
@@ -163,4 +163,9 @@ img{
     top: 150px;
     left: -92px;
     width: 45%;
+}
+
+main p::selection{
+    background-color: #1396d7;
+    color: #c0f9fd;
 }

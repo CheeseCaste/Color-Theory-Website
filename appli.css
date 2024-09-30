@@ -1,0 +1,10 @@
+div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px;
+    background-color: aquamarine;
+}
+
+a{
+    text-decoration: none;
+}
