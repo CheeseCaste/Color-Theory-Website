@@ -1,4 +1,106 @@
+body, h2, a{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient( #67dbcf 40%, #04766b 70%);
+}
+
+@font-face{
+    font-family: NerkoOne;
+    src: url(/Fonts/NerkoOne-Regular.ttf);
+}
+
+@font-face{
+    font-family: PlaywriteCU;
+    src: url(/Fonts/PlaywriteCU-VariableFont_wght.ttf);
+}
+
+h1{
+    margin: 0px;
+    font-family: PlaywriteCU;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    text-shadow: -5px 5px #04766b;
+}
+
+nav{
+    display: inline-block;
+    padding: 10px;
+    border: 10px solid #019082;
+    border-radius: 10% 25%;
+    background-color: #019082;
+}
+
+nav a{
+    font-size: 30px;
+    text-decoration: none;
+    font-family: NerkoOne;
+    color: #fff;
+}
+
 .combi{
+    width: auto;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 80px;
+}
+
+.combi a{
+    text-align: center;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-decoration: none;
+    font-family: NerkoOne;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #fff;
+}
+
+.Mono{
+    font-size: 40px;
+    padding: 50px;
+    color: #fff;
+    border-radius: 25px;
+    /* background: -webkit-linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%), -webkit-linear-gradient(110deg, #dd0000 66%, #ffc608 66%);
+    background: -o-linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%), -o-linear-gradient(110deg, #dd0000 66%, #ffc608 66%);
+    background: -moz-linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%), -moz-linear-gradient(110deg, #dd0000 66%, #ffc608 66%); */
+    background: linear-gradient(#391c1a, #702B24, #BE483D);
+}
+
+.Comple{
+    font-size: 40px;
+    padding: 50px;
+    color: #fff;
+    border-radius: 25px;
+    background: linear-gradient(180deg, #3DB3BE , #BE483D);
+}
+
+.Triadic{
+    font-size: 50px;
+    padding: 30px;
+    color: #fff;
+    border-radius: 25px;
+    background: linear-gradient(#3DB3BE, #BE3DB3, #B3BE3D);
+}
+
+.Analg{
+    font-size: 40px;
+    padding: 50px;
+    color: #fff;
+    border-radius: 25px;
+    background: linear-gradient(#c4ce31, #75CE31, #CE8A31);
+}
+
+.Tetra{
+    font-size: 50px;
+    padding: 30px;
+    color: #fff;
+    border-radius: 25px;
+    background: linear-gradient(#C4CE31, #31CE8A, #3B31CE, #CE3175);
 }

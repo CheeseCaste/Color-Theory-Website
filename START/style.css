@@ -117,13 +117,38 @@ body{
     align-content: center;
 }
 
+.Fourth{
+    display: none;
+    list-style-type: none;
+}
+
+.One{
+    font-size: 50px;
+    font-family: cursive;
+    color: #0a6259;
+}
+
+.Two{
+    display: none;
+    font-size: 40px;
+    font-family: cursive;
+    color: #0a6259;
+}
+
+.Three{
+    display: none;
+    font-size: 40px;
+    font-family: cursive;
+    color: #0a6259;
+}
+
+
 .box {
     width: 570px;
     margin: 40px auto;
     background-color: #DDFFFB;
     box-shadow: 20px 20px #98FCF0;
     border-radius: 20px;
-    list-style-type: none;
     padding-left: 80px;
     padding-right: 130px;
     padding-top: 130px;
@@ -148,7 +173,11 @@ body{
 
 }
 
-p{
+ul{
+    list-style-type: none;
+}
+
+ul p{
     margin: 10px;
     font-family: cursive;
     font-size: 30px;
@@ -205,8 +234,415 @@ img{
     width: 45%;
 }
 
-main p::selection{
+/* main p::selection{
     background-color: #1396d7;
     color: #c0f9fd;
+} */
+
+
+@media screen and (max-width: 1400px) {
+    
+.box {
+    width: 450px;
+    margin: 40px auto;
+    background-color: #DDFFFB;
+    box-shadow: 20px 20px #98FCF0;
+    border-radius: 20px;
+    padding-left: 80px;
+    padding-right: 130px;
+    padding-top: 130px;
+    padding-bottom: 80px;
+    padding: 15px 90px 60px 90px;
+    position: absolute;
+    left: 40%;
+    top: 3%;
 }
 
+img{
+    display: block;
+    position: relative;
+    top: 150px;
+    left: -20px;
+    width: 40%;
+}
+
+.avatarcont{
+    display: inline-block;  
+    position: relative;
+}
+
+.wcsign{
+    position: absolute;
+    font-family: NerkoOne;
+    font-size: 50px;
+    color: #d2fffa;
+    align-content: center;
+    top: 30px;
+    left: 80px;
+}
+
+.namesign{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    font-family: PlaywriteCU;
+    font-size: 30px;
+    color: #00796B;
+    align-content: center;
+}
+
+}
+
+@media screen and (max-width: 992px) {
+
+.bar{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px;
+}
+
+.nav{
+    display: inline-block;
+    border: 10px solid #019082;
+    border-radius: 10% 25%;
+    background-color: #019082;
+    cursor: pointer;
+}
+.NAV{
+    display: none;
+    position: absolute;
+    background-color: #019082;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.nav-main:hover .NAV {
+    display: block;
+}
+.nav-main:hover .nav{
+    display: inline-block;
+    border-radius: 0% 0%;
+    min-width: 160px;
+}
+
+.nav-main{
+    position: relative;
+    display: inline-block;
+}
+
+.NAV ul{
+    list-style-type: none;
+}
+
+.NAV li a{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #d2fffa;
+    font-size: 25px;
+    font-family: Nerkoone;
+    text-decoration: none;
+    
+}
+
+.box {
+    width: 350px;
+    margin: 40px auto;
+    background-color: #DDFFFB;
+    box-shadow: 20px 20px #98FCF0;
+    border-radius: 20px;
+    padding-left: 80px;
+    padding-right: 130px;
+    padding-top: 130px;
+    padding-bottom: 80px;
+    padding: 15px 90px 60px 90px;
+    position: absolute;
+    left: 40%;
+    top: 3%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul p{
+    margin: 5px;
+    font-family: cursive;
+    font-size: 30px;
+    color: #0a6259;
+}
+
+img{
+    display: block;
+    position: relative;
+    top: 150px;
+    left: -20px;
+    width: 40%;
+}
+
+.wcsign{
+    position: absolute;
+    font-family: NerkoOne;
+    font-size: 50px;
+    color: #d2fffa;
+    align-content: center;
+    top: 35px;
+    left: 40px;
+}
+
+.namesign{
+    position: absolute;
+    top: 60px;
+    left: 5px;
+    font-family: PlaywriteCU;
+    font-size: 30px;
+    color: #00796B;
+    align-content: center;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    
+.box {
+    width: 100%;
+    margin: 40px auto;
+    background-color: #DDFFFB;
+    box-shadow: 20px 20px #98FCF0;
+    border-radius: 20px;
+    padding-left: 80px;
+    padding-right: 130px;
+    padding-top: 130px;
+    padding-bottom: 80px;
+    padding: 20px 90px 40px 100px;
+    position: absolute;
+    left: 0%;
+    top: 4%;
+}
+
+.sb1::before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 30px solid #DDFFFB;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #DDFFFB;
+    border-bottom: 30px solid transparent;
+    left: 50%;
+    bottom: -55px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    display: block;
+    position: relative;
+    top: 400px;
+    left: -100px;
+    width: 80%;
+}
+
+.avatarcont{
+    display: inline-block;  
+    position: relative;
+}
+
+.wcsign{
+    position: absolute;
+    font-family: NerkoOne;
+    font-size: 60px;
+    color: #d2fffa;
+    top: 103%;
+    left: 53%;
+}
+
+.namesign{
+    position: absolute;
+    top: 110%;
+    left: 55%;
+    font-family: PlaywriteCU;
+    font-size: 25px;
+    color: #00796B;
+}
+
+.choice li a:hover{
+    position: relative;
+    top: -3px;
+}
+
+.choice li a{
+    display: inline-block;
+    font-family: cursive;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0a6259;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color:#4db6ac;
+}
+
+.bar{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px;
+}
+
+.nav{
+    display: inline-block;
+    border: 10px solid #019082;
+    border-radius: 10% 25%;
+    background-color: #019082;
+    cursor: pointer;
+}
+.NAV{
+    display: none;
+    position: absolute;
+    background-color: #019082;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.nav-main:hover .NAV {
+    display: block;
+}
+.nav-main:hover .nav{
+    display: inline-block;
+    border-radius: 0% 0%;
+    min-width: 160px;
+}
+
+.nav-main{
+    position: relative;
+    display: inline-block;
+}
+
+.NAV ul{
+    list-style-type: none;
+}
+
+.NAV li a{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #d2fffa;
+    font-size: 25px;
+    font-family: Nerkoone;
+    text-decoration: none;
+    
+}
+
+}
+
+@media screen and (max-width: 600px){
+    
+body{
+    width: 100vw;
+}
+
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: auto auto;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+
+    .box {
+        width: 100%;
+        margin: 40px auto;
+        background-color: #DDFFFB;
+        box-shadow: 20px 20px #98FCF0;
+        border-radius: 20px;
+        padding-left: 80px;
+        padding-right: 130px;
+        padding-top: 130px;
+        padding-bottom: 80px;
+        padding: 20px 90px 40px 100px;
+        position: absolute;
+        left: 0%;
+    }
+    
+    .sb1::before{
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 30px solid #DDFFFB;
+        border-right: 30px solid transparent;
+        border-top: 30px solid #DDFFFB;
+        border-bottom: 30px solid transparent;
+        left: 50%;
+        bottom: -55px;
+    }
+    
+    ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    img{
+        display: block;
+        position: relative;
+        top: 100%;
+        left: -10px;
+        width: 70%;
+    }
+    
+    .avatarcont{
+        display: inline-block;  
+        position: relative;
+    }
+    
+    .wcsign{
+        position: absolute;
+        font-family: NerkoOne;
+        font-size: 60px;
+        color: #d2fffa;
+        top: -15%;
+        left: 20%;
+        z-index: -1;
+    }
+    
+    .namesign{
+        position: absolute;
+        top: -12%;
+        left: 70%;
+        font-family: PlaywriteCU;
+        font-size: 27px;
+        color: #00796B;
+        width: 300px;
+    }
+    
+    .choice li a:hover{
+        position: relative;
+        top: -3px;
+    }
+    
+    .choice li a{
+        display: inline-block;
+        font-family: cursive;
+        font-weight: bold;
+        text-decoration: none;
+        color: #0a6259;
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        background-color:#4db6ac;
+    }
+}

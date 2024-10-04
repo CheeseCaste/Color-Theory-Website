@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Slideshow</title>
+    <style>
+        .slideshow {
+            font-size: 24px;
+            text-align: center;
+            margin: 20px auto;
+        }
+        .slide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="slideshow">
+        <div class="slide">Slide 1: Welcome to our text slideshow!</div>
+        <div class="slide">Slide 2: JavaScript is awesome!</div>
+        <div class="slide">Slide 3: Let's build cool web apps.</div>
+        <div class="slide">Slide 4: Keep learning and coding!</div>
+        <button onclick="previousSlide()">Previous</button>
+        <button onclick="nextSlide()">Next</button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.style.display = i === index ? 'block' : 'none';
+            });
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        function previousSlide() {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        // Show the first slide initially
+        showSlide(currentSlide);
+    </script>
+</body>
+</html>
