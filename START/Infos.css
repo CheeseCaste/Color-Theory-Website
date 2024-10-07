@@ -13,12 +13,26 @@ body, h2, a{
     src: url(/Fonts/PlaywriteCU-VariableFont_wght.ttf);
 }
 
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(#e1f1a9 22%, #6cede1 88%);
+}
+
+nav{
+    display: inline-block;
+    padding: 10px;
+    border: 10px solid #019082;
+    border-radius: 10% 25%;
+    background-color: #019082;
+}
+
 nav a{
-    margin: 20px;
     font-family: NerkoOne;
     text-decoration: none;
     font-size: 30px;
-    color: #0a6259;
+    color: #ffffff;
+    
 }
 
 .info{
@@ -29,6 +43,8 @@ nav a{
 .about{
     font-family: PlaywriteCU;
     font-size: 40px;
+    color: aliceblue;
+    text-shadow: -4px 5px #33403f;
 }
 .infos{
     font-family: NerkoOne;
@@ -36,5 +52,5 @@ nav a{
     font-size: 25px;
     margin-left: 130px;
     margin-right:100px;
-    color: #0a6259;
+    color: #33403f;
 }

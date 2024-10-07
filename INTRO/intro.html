@@ -7,62 +7,85 @@
 </head>
 <body>
     
-    <h1>Comprehensive Hue</h1>
-    <h2>Introduction: Color Mixing</h2>
-    <h3>Introduction: Hue</h3>
-
-    <nav>
-        <nav class="HOME">
-            <a href="/START/index2.html">HOME</a>
-        </nav>
+    <nav class="NAV">
         <div>
-            <img src="/img/Avatar.png">
+            <img src="/img/Avatar_head.png">
         </div>
+    
     </nav>
     <main>
-        <div class="colormix">
-            <input type="color" id="color1" value="#ff0000">
-            <input type="color" id="color2" value="#0000ff">
-            <button onclick="mixColors()">Mix</button>
-            <div class="color-box" id="resultBox"></div>
+        <nav class="HOME">
+            <a href="/START/index2.html">HOME</a>
+            <h2 class="L">LESSON 1: Color Mixing and Hue</h2>
+        </nav>
 
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
         </div>
-        <div class="Hue">
-            <div class="YU">
-                <div class="red"></div>
-                <div class="orange"></div>
-                <div class="yellow"></div>
-                <div class="ygreen"></div>
-                <div class="green"></div>
-                <div class="bgreen"></div>
-                <div class="blue"></div>
-                <div class="violet"></div>
+
+            <div class="Lesson">
+            <!-- <h1 class="Web">Comprehensive Hue</h1> -->
+        
+            <div class="colormix">
+                <div class="chs">
+                <input type="color" class="color1" id="color1" value="#ff0000">
+                <input type="color" class="color2" id="color2" value="#0000ff">
+                <button onclick="mixColors()" class="mixBtn">MIX</button>
+                </div>
+                <div class="color-box" id="resultBox"></div>
             </div>
 
-            <div id="" style="overflow:scroll; height: 100px;">
-                <p class="Lesson">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Labore rerum repellendus sunt quaerat et amet autem itaque 
-                    numquam officiis iusto? Ut quae animi similique, quos neque 
-                    deserunt quaerat! Accusamus, adipisci.
+            <div class="text">
+                <p class="t">
+                    Mixing two or more colors together and having a different shade of a color as a result is called color mixing. 
+                    This is a type of color experiment that artists always do when the color that they are going to use isn't available. 
+                    The color wheel is a visual example of color mixing, and it demonstrates important color relationships (MacNaughton, 2023).
                 </p>
-                <p class="Lesson">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Labore rerum repellendus sunt quaerat et amet autem itaque 
-                    numquam officiis iusto? Ut quae animi similique, quos neque 
-                    deserunt quaerat! Accusamus, adipisci.
+
+                <div class="YU">
+                    <div class="red"><div class="RED">A primary color, associated with love, anger, lust and </div></div>
+                    <div class="rorange"><div class="RORANGE">A tertiary color</div></div>
+                    <div class="orange"><div class="ORANGE">A secondary color, associated with </div></div>
+                    <div class="yorange"><div class="YORANGE">A tertiary color</div></div>
+                    <div class="yellow"><div class="YELLOW">A primary color, associated with happiness, energetic</div></div>
+                    <div class="ygreen"><div class="YGREEN">A tertiary color</div></div>
+                    <div class="green"><div class="GREEN">A secondary color</div></div>
+                    <div class="bgreen"><div class="BGREEN">A tertiary color</div></div>
+                    <div class="blue"><div class="BLUE">A primary color</div></div>
+                    <div class="bviolet"><div class="BVIOLET">A tertiary color</div></div>
+                    <div class="violet"><div class="VIOLET">A secondary color</div></div>
+                </div>
+
+                <p class="t">
+                    Hue is the most basic aspect of color and refers  to the specific color itself such as red, blue, yellow, green, and so on.  
+                    It's the first thing you see when you look at a color, and it's usually determined by its position on the color wheel.
+                    now we will go to the understanding of hue. First is basic colors There are primary hues red, blue, and yellow which 
+                    cannot be created by mixing other colors. These primary colors serve as the building blocks for all other colors. 
+                    Second are Secondary Colors When you mix two primary hues together, you get secondary hues. and the last is Tertiary 
+                    Colors By mixing a primary color with a secondary color, you create tertiary colors.
                 </p>
-                <p class="Lesson">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Labore rerum repellendus sunt quaerat et amet autem itaque 
-                    numquam officiis iusto? Ut quae animi similique, quos neque 
-                    deserunt quaerat! Accusamus, adipisci.
+                <p class="t">
+                    Keeping what we learned in color mixing we can create the different hues of the color wheel. Using only the primary colors,
+                    <span class="r"></span>red mix with <span class="y"></span>yellow, results to <span class="o"></span>orange. 
+                    <span class="y"></span>Yellow mix with <span class="b"></span>blue, results to <span class="g"></span>green. 
+                    <span class="b"></span>Blue mix with <span class="r"></span>red, results in <span class="p"></span>purple. 
+                    The mixtures among the primary colors results in secondary colors.
                 </p>
+
+                <p class="t">
+                    Using the primary colors with secondary colors, <span class="r"></span>red mix with <span class="o"></span>orange 
+                    results in <span class="ro"></span>red orange. <span class="o"></span>Orange mix with <span class="y"></span>yellow, 
+                    results in <span class="yo"></span>yellow orange. <span class="y"></span>Yellow mix with <span class="g"></span>green
+                    results in <span class="yg"></span>yellow green. <span class="g"></span>Green mix with <span class="b"></span>blue, 
+                    results in <span class="bg"></span>cyan. <span class="b"></span>Blue mix with <span class="p"></span>purple, 
+                    results in <span class="bv"></span>indigo. These colors are known as tertiary colors, a mixture of primary and secondary colors.
+                </p>
+
             </div>
         </div>
 
         <div>
-            <p class="Next"><a href="Intro_L2">Next</a></p>
+            <p class="Next"><a href="Hue.html">Next</a></p>
         </div>
     </main>
 </body>

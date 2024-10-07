@@ -1,8 +1,23 @@
+body, h2, a{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: NerkoOne;
+    src: url(/Fonts/NerkoOne-Regular.ttf);
+}
+
+@font-face{
+    font-family: PlaywriteCU;
+    src: url(/Fonts/PlaywriteCU-VariableFont_wght.ttf);
+}
+
 div{
     display: grid;
     grid-template-columns: auto auto auto;
     margin: 20px;
-    background-color: aquamarine;
+    background-color: aquamarine;   
 }
 
 a{

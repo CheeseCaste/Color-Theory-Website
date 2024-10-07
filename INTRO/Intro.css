@@ -1,52 +1,475 @@
+body, h2, a{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: NerkoOne;
+    src: url(/Fonts/NerkoOne-Regular.ttf);
+}
+
+@font-face{
+    font-family: PlaywriteCU;
+    src: url(/Fonts/PlaywriteCU-VariableFont_wght.ttf);
+}
+
+body{
+    background: bottom linear-gradient(#056157, #019082);
+    display: flex;
+    overflow: scroll;
+}
+
+.Web{
+    display: flex;
+    justify-content: center;
+}
+
+.colormix{
+    padding-left: 46%;
+    padding-top: 100px;
+}
+
 .color-box{
-    width: 150px;
+    width: 400px;
     height: 150px;
-    border: 2px solid #000;
+    border: 5px solid #00342e;
+    margin: 20px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+
+.chs{
+    padding-left: 40px;
+}
+
+.color1{
+    background-color: #00342e;
+    width: 55px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.color2{
+    background-color: #00342e;
+    width: 55px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.mixBtn{
+    background-color: #00342e;
+    width: 55px;
+    height: 30px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-family: NerkoOne;
+    font-size: 20px;
+    color: #dbf5f2;
+    letter-spacing: 2px;
+}
+
+.HOME{
+    display: flex;
+    position: fixed;
+    width: 81%;
+    padding-left: 300px; ;
+    justify-content: space-between;
+    background-color: #028273;
+}
+
+.HOME a{
+    margin: 20px;
+    margin-right: 0px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: NerkoOne;
+    color: #fff;
+}
+
+.progress-bar{
+    width: 100%;
+    height: 8px;
+    background-color:#019082;
+}
+
+.progress-bar{
+    height: 8px;
+    background-color: aquamarine;
+    width: 0%;
+}
+
+.Web{
+    position: relative;
+    top: -40px;
+    font-family: NerkoOne;
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.L{
+    display: flex;
+    justify-content: center;
+    font-family: NerkoOne;
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: #00342e;
     margin: 20px;
 }
 
+.NAV{
+    display: flex;
+    position: fixed;
+    justify-content: flex-start;
+    justify-items: center;
+    background-color: #00342e;
+    padding-bottom: 100px;
+    width: 20%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.text{
+    padding-left: 350px;
+    padding-right: 30px;
+}
+
+.t{
+    color: #dbf5f2;
+    font-family: cursive;
+    font-size: 25px;
+    text-indent: 90px;
+    text-align: justify;
+}
+
+
+img{
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: -50px;
+    width: 300px;
+}
+
+.main{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+
 .YU{
     display: grid;
-    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px;
+    justify-content: center;
 }
 
 .red{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     background-color: red;
 }
+.rorange{
+    height: 70px;
+    width: 70px;
+    background-color: orangered;
+}
 .orange{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     background-color: orange;
 }
+
+.yorange{
+    height: 70px;
+    width: 70px;
+    background-color: gold;
+}
+
 .yellow{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     background-color: yellow;
 }
 .ygreen{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     background-color: yellowgreen;
 }
 .green{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     background-color: green;
 }
 .bgreen{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     background-color: #008080;
 }
 .blue{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     background-color: blue;
 }
+
+.bviolet{
+    height: 70px;
+    width: 70px;
+    background-color: indigo;
+}
+
 .violet{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     background-color: purple;
+}
+
+.RED{
+    display: none;
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background-color: #ff7c7c;
+    font-family: cursive;
+    color: #000000;
+}
+
+.red:hover .RED{
+    display: inline-block;
+}
+
+.RORANGE{
+    display: none;
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background-color: rgb(250, 140, 99);
+    font-family: cursive;
+    color: #000000;
+}
+
+.rorange:hover .RORANGE{
+    display: inline-block;
+}
+
+.ORANGE{
+    display: none;
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background-color: #ffd88f;
+    font-family: cursive;
+    color: #000000;
+}
+
+.orange:hover .ORANGE{
+    display: inline-block;
+}
+
+.YORANGE{
+    display: none;
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background-color: rgb(248, 226, 102);
+    font-family: cursive;
+    color: #000000;
+}
+
+.yorange:hover .YORANGE{
+    display: inline-block;
+}
+    
+.YELLOW{
+    display: none;
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background-color: #fdfd74;
+    font-family: cursive;
+    color: #000000;
+}
+
+.yellow:hover .YELLOW{
+    display: inline-block;
+}
+
+.YGREEN{
+    display: none;
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background-color: #d2fb7e;
+    font-family: cursive;
+    color: #000000;
+}
+
+.ygreen:hover .YGREEN{
+    display: inline-block;
+}
+
+.GREEN{
+    display: none;
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background-color: #6cfb6c;
+    font-family: cursive;
+    color: #000000;
+}
+
+.green:hover .GREEN{
+    display: inline-block;
+}
+
+.BGREEN{
+    display: none;
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background-color: #64f5f5;
+    font-family: cursive;
+    color: #000000;
+}
+
+.bgreen:hover .BGREEN{
+    display: inline-block;
+}
+
+.BLUE{
+    display: none;
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background-color: #6c6cfe;
+    font-family: cursive;
+    color: #000000; 
+}
+
+.blue:hover .BLUE{
+    display: inline-block;
+}
+
+.BVIOLET{
+    display: none;
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background-color: #bf6ef9;
+    font-family: cursive;
+    color: #000000; 
+}
+
+.bviolet:hover .BVIOLET{
+    display: inline-block;
+}
+
+.VIOLET{
+    display: none;
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background-color: #f968f9;
+    font-family: cursive;
+    color: #000000;
+}
+
+.violet:hover .VIOLET{
+    display: inline-block;
+}
+
+span{
+    border: 2px solid #00342e;
+    border-radius: 5px;
+}
+
+.r{
+    display: inline-block;
+    background-color: red;
+    height: 20px;
+    width: 20px;
+
+}
+
+.y{
+    display: inline-block;
+    background-color: yellow;
+    height: 20px;
+    width: 20px;
+}
+
+.o{
+    display: inline-block;
+    background-color: orange;
+    height: 20px;
+    width: 20px;
+}
+
+.b{
+    display: inline-block;
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+}
+
+.g{
+    display: inline-block;
+    background-color: green;
+    height: 20px;
+    width: 20px;
+}
+
+.p{
+    display: inline-block;
+    background-color: purple;
+    height: 20px;
+    width: 20px;
+}
+
+.yg{
+    display: inline-block;
+    background-color: yellowgreen;
+    height: 20px;
+    width: 20px;
+}
+
+.ro{
+    display: inline-block;
+    background-color: orangered;
+    height: 20px;
+    width: 20px;
+}
+
+.yo{
+    display: inline-block;
+    background-color: gold;
+    height: 20px;
+    width: 20px;
+}
+
+.bv{
+    display: inline-block;
+    background-color: indigo;
+    height: 20px;
+    width: 20px;
+}
+
+.bg{
+    display: inline-block;
+    background-color: #008080;
+    height: 20px;
+    width: 20px;
 }

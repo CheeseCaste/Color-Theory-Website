@@ -1,0 +1,47 @@
+
+.YU{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+
+.red{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+.orange{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+}
+.yellow{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+}
+.ygreen{
+    height: 50px;
+    width: 50px;
+    background-color: yellowgreen;
+}
+.green{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+}
+.bgreen{
+    height: 50px;
+    width: 50px;
+    background-color: #008080;
+}
+.blue{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+.violet{
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+}
+
