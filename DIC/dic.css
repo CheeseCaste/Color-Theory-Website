@@ -15,6 +15,8 @@ body, h2, a{
 
 body{
     background: radial-gradient(#119283, #03322d);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 nav{
@@ -133,3 +135,4 @@ input[type=text]:focus{
     }
     
 }
+

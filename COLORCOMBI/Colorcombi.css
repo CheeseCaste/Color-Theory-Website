@@ -9,6 +9,7 @@ body{
     height: 100vh;
     display: grid;
     place-items: center;
+    background-repeat: no-repeat;
 }
 
 @font-face{
@@ -236,16 +237,29 @@ nav a{
 
     body{
         background: linear-gradient( #67dbcf 40%, #04766b 70%); 
+        overflow: hidden;
     }
+
+    h1{
+        margin: 0px;
+        font-family: PlaywriteCU;
+        font-size: 50px;
+        color: #fff;
+        text-shadow: -5px 5px #04766b;
+        justify-content: center ;
+    }    
 
     .combi{
         display: grid;
-        width: 100%;
+        justify-content: center;
+        grid-template-columns: 60% 60%;
+        grid-template-rows: auto auto auto;
+        row-gap: 30px;
+        position: relative;
+        top: -80px;
     }
 
     .combi a{
-        grid-column: 1;
-        grid-row: 5;
         display: grid;
         align-items: center;
         writing-mode: horizontal-tb;
@@ -256,30 +270,38 @@ nav a{
         border-width: 10px;
         border-color: #fff;
         overflow: hidden;
+        min-height: 70px;
+        max-height: 70px;
+
     }
     
     .Mono{
-        font-size: 25px;
+        font-size: 27px;
+        padding: 10px 40px;
         color: #fff;
         border-radius: 25px;
         background: linear-gradient(#391c1a, #702B24, #BE483D);
     }
     
     .Comple{
-        font-size: 25px;
+        font-size: 27px;
+        padding: 10px 40px;
         color: #fff;
+        border-radius: 25px;
         background: linear-gradient(180deg, #3DB3BE , #BE483D);
     }
     
     .Triadic{
         font-size: 30px;
+        padding: 10px 40px;
         color: #fff;
         border-radius: 25px;
         background: linear-gradient(#3DB3BE, #BE3DB3, #B3BE3D);
     }
     
     .Analg{
-        font-size: 25px;
+        font-size: 27px;
+        padding: 10px 40px;
         color: #fff;
         border-radius: 25px;
         background: linear-gradient(#c4ce31, #75CE31, #CE8A31);
@@ -287,9 +309,14 @@ nav a{
     
     .Tetra{
         font-size: 30px;
+        padding: 10px 40px;
         color: #fff;
         border-radius: 25px;
         background: linear-gradient(#CE8A31, #31CE3C, #3175CE, #CE31C3);
     }
+    
+}
+
+@media screen and (max-width: 768px){
     
 }
