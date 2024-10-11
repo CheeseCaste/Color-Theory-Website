@@ -14,9 +14,10 @@ body, h2, a{
 }
 
 body{
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(#e1f1a9 22%, #6cede1 88%);
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#e1f1a9 44%, #8fe97d 88%, #6cede1 188%);
+    background-repeat: no-repeat;
 }
 
 nav{
@@ -36,7 +37,6 @@ nav a{
 }
 
 .info{
-   padding-top: 10%;
    text-align: center;
 }
 
@@ -46,11 +46,67 @@ nav a{
     color: aliceblue;
     text-shadow: -4px 5px #33403f;
 }
+
+.h{
+    font-family: cursive;
+    color: #295276;
+    font-size: 30px;
+    text-shadow: -3px 2px #5185b4;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
 .infos{
     font-family: NerkoOne;
     text-align: justify;
     font-size: 25px;
-    margin-left: 130px;
-    margin-right:100px;
+    margin-top: 0px;
+    margin: 20px 100px 20px 100px;
+    line-height: 1.5;
     color: #33403f;
+}
+
+.infos2{
+    font-family: NerkoOne;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+    margin: 20px 100px 20px 100px;
+    line-height: 1.5;
+    color: #33403f;
+}
+
+.Btn {
+    display: none;
+    position: fixed;
+    bottom: 90%;
+    left: 95%;
+    top: 90%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #019082;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.Btn:hover {
+    background-color: aquamarine;
+}
+
+.arrow{
+    position: relative;
+    bottom: 8px;
+    border: solid #ffffff;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.up{
+    position: relative;
+    transform: rotate(-135deg);
 }

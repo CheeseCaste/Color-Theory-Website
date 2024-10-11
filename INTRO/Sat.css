@@ -24,7 +24,7 @@ body{
 }
 
 .Sat{
-    padding-left: 46%;
+    padding-left: 23%;
     padding-top: 100px;
 }
 
@@ -35,6 +35,7 @@ body{
     padding-left: 300px; ;
     justify-content: space-between;
     background-color: #028273;
+    z-index: 1;
 }
 
 .HOME a{
@@ -89,7 +90,101 @@ body{
     padding-bottom: 100px;
     width: 20%;
     height: 100vh;
-    z-index: 1;
+    z-index: 2;
+}
+
+
+.val{
+    padding-left: 10%;
+}
+
+.Sat p{
+    display: inline;
+    font-size: 30px;
+    font-family: cursive;
+    color: #dbf5f2;
+    margin: 5px;
+}
+
+.range{
+    position: relative;
+    appearance: none;
+    background: #61bebe;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+    height: 20px;
+    margin: 30px;
+}
+
+.range::-webkit-slider-thumb{
+    background-color: #16613e;
+    height: 35px;
+    width: 35px;
+    border: 0px;
+    appearance: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.range:hover{
+    opacity: 1;
+}
+
+.Val{
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border: 2px solid #00342e;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+
+.color-box{
+    display: inline-block;
+    width: 400px;
+    height: 150px;
+    border: 5px solid #00342e;
+    margin: 20px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+
+.color-box2{
+    display: inline-block;
+    width: 400px;
+    height: 150px;
+    border: 5px solid #00342e;
+    margin: 20px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+
+.sat{
+    filter: grayscale(100%);
+}
+
+.color1{
+    position: relative;
+    left: 19%;
+    background-color: #00342e;
+    width: 55px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.color2{
+    position: relative;
+    left: 56.5%;
+    background-color: #00342e;
+    width: 55px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    outline: none;
 }
 
 .text{
@@ -173,6 +268,26 @@ img{
     max-width: 200px;
     display: flex;
     flex-direction: column;
+}
+
+.Back{
+    position: relative;
+    top: 58px;
+    left: 21%;
+    margin-bottom: 8px;
+    width: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #16613e;
+    border-radius: 5px;
+}
+
+.Back a{
+    color: #dbf5f2;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: NerkoOne;
 }
 
 .Next{

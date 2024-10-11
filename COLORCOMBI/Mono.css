@@ -14,7 +14,7 @@ body, h2, a{
 }
 
 body{
-    background: bottom linear-gradient(#045349, #019082);
+    background: bottom linear-gradient(#0f8b7d, #11cab7);
     display: flex;
 }
 
@@ -22,6 +22,7 @@ body{
     display: flex;
     justify-content: center;
 }
+
 
 .HOME{
     display: flex;
@@ -43,9 +44,12 @@ body{
 }
 
 .progress-bar{
-    width: 100%;
+    position: fixed;
+    left: 280px;
+    top: 70px;
+    width: 85%;
     height: 8px;
-    background-color:#019082;
+    background-color:#056157;
 }
 
 .progress{
@@ -78,62 +82,11 @@ body{
     position: fixed;
     justify-content: flex-start;
     justify-content: center;
-    background-color: #00342e;
+    background-color: #015046;
     padding-bottom: 100px;
     width: 20%;
     height: 100vh;
     z-index: 2;
-}
-
-.Lesson{
-    text-align: center;
-    position: relative;
-    top: 100px;
-    padding: 20px;
-    padding-left: 8px;
-    padding-bottom: 10%;
-}
-
-h3{
-    position: relative;
-    left: -45px;
-    font-family: cursive;
-    font-size: 30px;
-    text-indent: 90px;
-    text-align: center;
-    color: #00ffe1;
-    margin: 0px;
-}
-
-.spectrum{
-    display: inline-block;
-    width: 70%;
-    height: 100px;
-    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, purple);
-}
-
-table{
-    position: relative;
-    left: 7%;
-
-}
-
-td{
-    padding: 10px;
-    padding-left: 60px;
-    font-size: 14px;
-    font-family: cursive;
-    color: #dbf5f2;
-}
-
-.spec{
-    margin: 0;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-family: cursive;
-    color: #7ed5d5;
-
 }
 
 .text{
@@ -167,10 +120,9 @@ td{
     display: block;
     text-decoration: none;
     font-family: NerkoOne;
-    font-size: 20px;
+    font-size: 25px;
     background-color: #61bebe;
     margin: 5px;
-    padding: 5px;
     color: #00342e;
     border-radius: 10px;
 }
@@ -194,7 +146,6 @@ textarea{
     width: 80%;
     height: 70px;
     background-color: #7ed5d5;
-    padding: 5px;
     border-radius: 10px;
     font-family: cursive;
     color: #00342e;
@@ -221,9 +172,30 @@ img{
     flex-direction: column;
 }
 
+.Back{
+    position: relative;
+    top: 58px;
+    left: 21%;
+    margin-bottom: 8px;
+    width: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #16613e;
+    border-radius: 5px;
+}
+
+.Back a{
+    color: #dbf5f2;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: NerkoOne;
+}
+
 .Next{
     position: relative;
     left: 93%;
+    margin-bottom: 8px;
     width: 80px;
     padding-top: 10px;
     padding-bottom: 10px;

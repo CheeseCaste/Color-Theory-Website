@@ -32,31 +32,75 @@
         <nav class="HOME">
             <a href="/START/index2.html">HOME</a>
             <h2 class="L">Lesson 2: Value and Saturation</h2>
-        </nav>
 
         <div class="progress-bar">
             <div class="progress" id="myprogress"></div>
         </div>
 
+        </nav>
+
             <div class="Lesson">
 
             <div class="Sat">
-                <input type="color" id="html5colorpicker" onchange="clickColor(0, -1, -1, 5)" value="#ff0000" style="width:50%;">
+                <input type="range" min="0" max="360" value="89" class="range" onchange="colorChanged(this.value)" style="width:50%;">
+                <p>Hue : <span id="deg"></span></p>
+                <table>
+                    <td class="Val"></td>
+                    <td class="Val"></td>
+                    <td class="Val"></td>
+                    <td class="Val"></td>
+                    <td class="Val"></td>
+                    <td class="Val"></td>
+                    <td class="Val"></td>
+                    <td class="Val"></td>
+                    <td class="Val"></td>
+                    <td class="Val"></td>
+                </table>
             </div>
                 
             <div class="text">
                 <p class="t">
-                    Mixing two or more colors together and having a different shade of a color as a result is called color mixing. 
-                    This is a type of color experiment that artists always do when the color that they are going to use isn't available. 
-                    The color wheel is a visual example of color mixing, and it demonstrates important color relationships (MacNaughton, 2023).
+                    Value in art is primarily determined by the lightness or darkness of something, ranging from white to black 
+                    (where white represents the highest value and black the lowest value). Many believe that it is crucial to a 
+                    painting's success, even more than the choice of color. Understanding the value of art should be straightforward. 
+                    Nevertheless, incorporating color can present difficulties in understanding the concept. Two distinct colors may 
+                    seem completely unrelated, yet they share the same value. There would be minimal difference in these colors even 
+                    though they have varying shades. (drawpaintacademy)
+                </p>
+
+                <div class="val">
+                    <div class="chs">
+                        <input type="color" class="color1" id="color1" value="#ff0000">
+                        <input type="color" class="color2" id="color2" value="#0000ff">
+                    </div>
+                    <div class="sat">
+                        <div class="color-box" id="resultBox"></div>
+                        <div class="color-box2" id="resultBox2"></div>
+                    </div>
+                </div>    
+
+                <p class="t">
+                    Saturation refers to the level of purity or intensity of a color. The colors we typically purchase at their 
+                    strongest saturation levels in art stores, like cadmium red or ultramarine blue, cannot be made any more intense. 
+                    The tube of paint is completely saturated at the time of purchase. The saturation of cadmium red decreases only 
+                    when we mix in other colors, particularly black and white. When colors are desaturated with black and white, they 
+                    become less vibrant. Nevertheless, saturation is constantly subjective. If we mix a small amount of orange with black 
+                    and white to create grey, it will appear more saturated compared to a grey made solely from black and white. Black and 
+                    White lack saturation, therefore mixing them with other colors reduces the saturation of the colors.    
                 </p>
 
             </div>
         </div>
 
         <div>
-            <p class="Next"><a href="intro2.html">NEXT</a></p>
+            <p class="Back"><a href="intro2.html">Back</a></p>
+        </div>
+
+        <div>
+            <p class="Next"><a href="/COLORCOMBI/Mono.html">NEXT</a></p>
         </div>
     </main>
+
+    <script src="Sat.js"></script>
 </body>
 </html>

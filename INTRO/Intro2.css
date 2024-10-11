@@ -138,6 +138,15 @@ body{
     padding-right: 30px;
 }
 
+h3{
+    font-family: cursive;
+    font-size: 25px;
+    text-indent: 90px;
+    text-align: justify;
+    color: #00ffe1;
+    margin: 0px;
+}
+
 .t{
     color: #dbf5f2;
     font-family: cursive;
@@ -200,6 +209,12 @@ textarea::placeholder{
     text-align: center;
 }
 
+.model{
+    z-index: -1;
+    position: relative;
+    left: 40%;
+}
+
 img{
     position: relative;
     left: 12px;
@@ -207,6 +222,7 @@ img{
     padding-bottom: 30px;
     width: 250px;
 }
+
 
 .main{
     max-width: 200px;
@@ -225,6 +241,26 @@ img{
     background-color: #16613e;
     border-radius: 5px;
     
+}
+
+.Back{
+    position: relative;
+    top: 58px;
+    left: 21%;
+    margin-bottom: 8px;
+    width: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #16613e;
+    border-radius: 5px;
+}
+
+.Back a{
+    color: #dbf5f2;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: NerkoOne;
 }
 
 .Next a{
