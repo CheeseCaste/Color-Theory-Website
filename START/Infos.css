@@ -13,6 +13,11 @@ body, h2, a{
     src: url(/Fonts/PlaywriteCU-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: Mali;
+    src: url(/Fonts/Mali-SemiBold.ttf);
+}
+
 body{
     height: 100%;
     width: 100%;
@@ -48,7 +53,7 @@ nav a{
 }
 
 .h{
-    font-family: cursive;
+    font-family: Mali;
     color: #295276;
     font-size: 30px;
     text-shadow: -3px 2px #5185b4;

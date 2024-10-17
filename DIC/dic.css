@@ -13,10 +13,15 @@ body, h2, a{
     src: url(/Fonts/PlaywriteCU-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: Mali;
+    src: url(/Fonts/Mali-SemiBold.ttf);
+}
+
 body{
-    background: radial-gradient(#119283, #03322d);
+    background: radial-gradient(#119283, #03322d) fixed;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100%;
 }
 
 nav{
@@ -82,7 +87,7 @@ input[type=text]:focus{
     padding: 0px;
     margin: 0px;
     font-size: 30px;
-    font-family: cursive;
+    font-family: Mali;
     color: aliceblue;
 }
 
@@ -93,7 +98,7 @@ input[type=text]:focus{
         color: #12f3d9;
         background-color: #03322d;
         font-size: 20px;
-        width: 300px;
+        width: 250px;
         height: 50px;
         border-radius: 4px;
         border: #12f3d9 solid 2px;
@@ -105,7 +110,7 @@ input[type=text]:focus{
     }
     
     input[type=text]:focus{
-        width: 300px;
+        width: 2500px;
         border: 3px solid #0b776e;
     }
     
@@ -134,5 +139,65 @@ input[type=text]:focus{
         border: 3px solid #0b776e;
     }
     
+}
+
+@media screen and (max-width: 425px) {
+
+    nav{
+        display: inline-block;
+        padding: 10px;
+        margin-bottom: 30px;
+        border: 10px solid #019082;
+        border-radius: 10% 25%;
+        background-color: #019082;
+    }
+    
+    nav a{
+        font-family: NerkoOne;
+        text-decoration: none;
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+    input[type=text] {
+        position: fixed;
+        left: 95px;
+        top: 10px;
+        padding-left: 10px; 
+        font-family: NerkoOne;
+        color: #12f3d9;
+        background-color: #03322d;
+        font-size: 20px;
+        width: 150px;
+        height: 45px;
+        border-radius: 4px;
+        border: #12f3d9 solid 2px;
+        transition: none;
+    }
+    
+    input::placeholder{
+        color: #12f3d9;
+    }
+    
+    input[type=text]:focus{
+        width: 200px;
+        border: 3px solid #0b776e;
+    }
+
+    .name{
+        padding: 0px;
+        margin: 0px;
+        font-family: NerkoOne;
+        font-size: 30px;
+        color: #12f3d9;
+    }
+    
+    .def{
+        padding: 0px;
+        margin: 0px;
+        font-size: 20px;
+        font-family: Mali;
+        color: aliceblue;
+    }
 }
 

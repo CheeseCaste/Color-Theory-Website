@@ -13,13 +13,46 @@ body, h2, a{
     src: url(/Fonts/PlaywriteCU-VariableFont_wght.ttf);
 }
 
-div{
+body{
+    background-image: 
+        url("/img2/appliBG.svg");
+    max-width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0% 20%, 0% 50%;
+}
+
+.appli{
+    position: relative;
+    top: -300px;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     margin: 20px;
-    background-color: aquamarine;   
+}
+
+.cont{
+    display: flexbox;
+    justify-content: flex-end;
+}
+
+p{
+    
+    margin: 0px;
 }
 
 a{
+    font-family: NerkoOne;
+    font-size: 50px;
+    display: inline-block;
     text-decoration: none;
+}
+
+.Cat{
+    width: 300px;
+}
+
+.Hue{
+    position: relative;
+    left: 72%;
+    width: 400px;
 }

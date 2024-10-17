@@ -33,6 +33,11 @@ h1{
     top: 5%;
 }
 
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
 nav{
     position: absolute;
     left: 0%;
@@ -106,7 +111,7 @@ nav a{
     padding: 10px 100px;
     color: #fff;
     border-radius: 25px;
-    background: linear-gradient(#3DB3BE, #BE3DB3, #B3BE3D);
+    background: linear-gradient(#BE3D73, #73BE3D, #3D73BE);
 }
 
 .Analg{
@@ -114,7 +119,7 @@ nav a{
     padding: 10px 100px;
     color: #fff;
     border-radius: 25px;
-    background: linear-gradient(#c4ce31, #75CE31, #CE8A31);
+    background: linear-gradient(#BE483D, #BE893D, #BE3D73);
 }
 
 .Tetra{
@@ -122,7 +127,7 @@ nav a{
     padding: 10px 100px;
     color: #fff;
     border-radius: 25px;
-    background: linear-gradient(#CE8A31, #31CE3C, #3175CE, #CE31C3);
+    background: linear-gradient(#3D73BE, #BE3DB3, #BE883D, #3DBE48);
 }
 
 @media screen and (max-width: 1400px){
@@ -148,7 +153,7 @@ nav a{
         padding: 10px 90px;
         color: #fff;
         border-radius: 25px;
-        background: linear-gradient(#3DB3BE, #BE3DB3, #B3BE3D);
+        background: linear-gradient(#BE3D73, #73BE3D, #3D73BE);
     }
     
     .Analg{
@@ -156,7 +161,7 @@ nav a{
         padding: 10px 85px;
         color: #fff;
         border-radius: 25px;
-        background: linear-gradient(#c4ce31, #75CE31, #CE8A31);
+        background: linear-gradient(#BE483D, #BE893D, #BE3D73);
     }
     
     .Tetra{
@@ -164,7 +169,7 @@ nav a{
         padding: 10px 90px;
         color: #fff;
         border-radius: 25px;
-        background: linear-gradient(#CE8A31, #31CE3C, #3175CE, #CE31C3);
+        background: linear-gradient(#3D73BE, #BE3DB3, #BE883D, #3DBE48);
     }
 
     
@@ -212,7 +217,7 @@ nav a{
         padding: 10px 70px;
         color: #fff;
         border-radius: 25px;
-        background: linear-gradient(#3DB3BE, #BE3DB3, #B3BE3D);
+        background: linear-gradient(#BE3D73, #73BE3D, #3D73BE);
     }
     
     .Analg{
@@ -220,7 +225,7 @@ nav a{
         padding: 10px 70px;
         color: #fff;
         border-radius: 25px;
-        background: linear-gradient(#c4ce31, #75CE31, #CE8A31);
+        background: linear-gradient(#BE483D, #BE893D, #BE3D73);
     }
     
     .Tetra{
@@ -228,7 +233,7 @@ nav a{
         padding: 10px 70px;
         color: #fff;
         border-radius: 25px;
-        background: linear-gradient(#CE8A31, #31CE3C, #3175CE, #CE31C3);
+        background: linear-gradient(#3D73BE, #BE3DB3, #BE883D, #3DBE48);
     }
     
 }
@@ -296,7 +301,7 @@ nav a{
         padding: 10px 40px;
         color: #fff;
         border-radius: 25px;
-        background: linear-gradient(#3DB3BE, #BE3DB3, #B3BE3D);
+        background: linear-gradient(#BE3D73, #73BE3D, #3D73BE);
     }
     
     .Analg{
@@ -304,7 +309,7 @@ nav a{
         padding: 10px 40px;
         color: #fff;
         border-radius: 25px;
-        background: linear-gradient(#c4ce31, #75CE31, #CE8A31);
+        background: linear-gradient(#BE483D, #BE893D, #BE3D73);
     }
     
     .Tetra{
@@ -312,11 +317,179 @@ nav a{
         padding: 10px 40px;
         color: #fff;
         border-radius: 25px;
-        background: linear-gradient(#CE8A31, #31CE3C, #3175CE, #CE31C3);
+        background: linear-gradient(#3D73BE, #BE3DB3, #BE883D, #3DBE48);
     }
     
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
+    body{
+        background: linear-gradient( #67dbcf 40%, #04766b 70%) fixed; 
+        overflow: hidden;
+    }
+
+    h1{
+        margin: 0px;
+        font-family: PlaywriteCU;
+        font-size: 40px;
+        color: #fff;
+        text-shadow: -5px 5px #04766b;
+        justify-content: center ;
+        position: absolute;
+        left: 22%;
+        top: 5%;
+    }    
+
+    .combi{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto;
+        row-gap: 10px;
+        position: relative;
+        top: -10px;
+    }
+
+    .combi a{
+        display: grid;
+        align-items: center;
+        writing-mode: horizontal-tb;
+        text-decoration: none;
+        font-family: NerkoOne;
+        text-transform: uppercase;
+        border-style: solid;
+        border-width: 10px;
+        border-color: #fff;
+        overflow: hidden;
+        min-height: 70px;
+        max-height: 70px;
+
+    }
     
+    .Mono{
+        font-size: 27px;
+        padding: 0px 40px;
+        color: #fff;
+        border-radius: 25px;
+        background: linear-gradient(#391c1a, #702B24, #BE483D);
+    }
+    
+    .Comple{
+        font-size: 27px;
+        padding: 0px 40px;
+        color: #fff;
+        border-radius: 25px;
+        background: linear-gradient(180deg, #3DB3BE , #BE483D);
+    }
+    
+    .Triadic{
+        font-size: 30px;
+        padding: 0px 40px;
+        color: #fff;
+        border-radius: 25px;
+        background: linear-gradient(#BE3D73, #73BE3D, #3D73BE);
+    }
+    
+    .Analg{
+        font-size: 27px;
+        padding: 0px 40px;
+        color: #fff;
+        border-radius: 25px;
+        background: linear-gradient(#BE483D, #BE893D, #BE3D73);
+    }
+    
+    .Tetra{
+        font-size: 30px;
+        padding: 0px 40px;
+        color: #fff;
+        border-radius: 25px;
+        background: linear-gradient(#3D73BE, #BE3DB3, #BE883D, #3DBE48);
+    }
+}
+
+@media screen and (max-width: 426px) {
+    body{
+        background: linear-gradient( #67dbcf 40%, #04766b 70%) fixed; 
+        overflow: hidden;
+    }
+
+    h1{
+        width: 350px;
+        margin: 0px;
+        font-family: PlaywriteCU;
+        font-size: 30px;
+        color: #fff;
+        text-shadow: -5px 5px #04766b;
+        justify-content: center ;
+        position: absolute;
+        left: 6%;
+        top: 13%;
+    }    
+
+    .combi{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto;
+        row-gap: 10px;
+        position: relative;
+        left: 7px;
+        top: 15px;
+    }
+
+    .combi a{
+        display: grid;
+        align-items: center;
+        writing-mode: horizontal-tb;
+        text-decoration: none;
+        font-family: NerkoOne;
+        text-transform: uppercase;
+        border-style: solid;
+        border-width: 10px;
+        border-color: #fff;
+        overflow: hidden;
+        min-height: 70px;
+        max-height: 70px;
+        overflow: hidden;
+    }
+    
+    .Mono{
+        font-size: 27px;
+        padding: 0px 40px;
+        color: #fff;
+        border-radius: 25px;
+        background: linear-gradient(#391c1a, #702B24, #BE483D);
+    }
+    
+    .Comple{
+        font-size: 27px;
+        padding: 0px 40px;
+        color: #fff;
+        border-radius: 25px;
+        background: linear-gradient(180deg, #3DB3BE , #BE483D);
+    }
+    
+    .Triadic{
+        font-size: 30px;
+        padding: 0px 40px;
+        color: #fff;
+        border-radius: 25px;
+        background: linear-gradient(#BE3D73, #73BE3D, #3D73BE);
+    }
+    
+    .Analg{
+        font-size: 27px;
+        padding: 0px 40px;
+        color: #fff;
+        border-radius: 25px;
+        background: linear-gradient(#BE483D, #BE893D, #BE3D73);
+    }
+    
+    .Tetra{
+        font-size: 30px;
+        padding: 0px 40px;
+        color: #fff;
+        border-radius: 25px;
+        background: linear-gradient(#3D73BE, #BE3DB3, #BE883D, #3DBE48);
+    }
 }

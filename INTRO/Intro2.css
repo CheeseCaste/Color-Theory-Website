@@ -13,60 +13,19 @@ body, h2, a{
     src: url(/Fonts/PlaywriteCU-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: Mali;
+    src: url(/Fonts/Mali-SemiBold.ttf);
+}
+
 body{
-    background: bottom linear-gradient(#0a796c, #0ab5a4);
+    background: bottom linear-gradient(#0f8b7d, #11cab7);
     display: flex;
 }
 
 .Web{
     display: flex;
     justify-content: center;
-}
-
-.colormix{
-    padding-left: 46%;
-    padding-top: 100px;
-}
-
-.color-box{
-    width: 400px;
-    height: 150px;
-    border: 5px solid #00342e;
-    margin: 20px;
-    margin-top: 0px;
-    border-radius: 10px;
-}
-
-.chs{
-    padding-left: 40px;
-}
-
-.color1{
-    background-color: #00342e;
-    width: 55px;
-    height: 50px;
-    border: 2px solid transparent;
-    border-radius: 5px;
-}
-
-.color2{
-    background-color: #00342e;
-    width: 55px;
-    height: 50px;
-    border: 2px solid transparent;
-    border-radius: 5px;
-}
-
-.mixBtn{
-    background-color: #00342e;
-    width: 55px;
-    height: 30px;
-    border: 2px solid transparent;
-    border-radius: 5px;
-    font-family: NerkoOne;
-    font-size: 20px;
-    color: #dbf5f2;
-    letter-spacing: 2px;
 }
 
 .HOME{
@@ -126,12 +85,59 @@ body{
     position: fixed;
     justify-content: flex-start;
     justify-content: center;
-    background-color: #01413a;
+    background-color: #015046;
     padding-bottom: 100px;
     width: 20%;
     height: 100vh;
     z-index: 1;
 }
+
+.colormix{
+    padding-left: 46%;
+    padding-top: 100px;
+}
+
+.color-box{
+    width: 400px;
+    height: 150px;
+    border: 5px solid #00342e;
+    margin: 20px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+
+.chs{
+    padding-left: 40px;
+}
+
+.color1{
+    background-color: #00342e;
+    width: 55px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.color2{
+    background-color: #00342e;
+    width: 55px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.mixBtn{
+    background-color: #00342e;
+    width: 55px;
+    height: 30px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-family: NerkoOne;
+    font-size: 20px;
+    color: #dbf5f2;
+    letter-spacing: 2px;
+}
+
 
 .text{
     padding-left: 350px;
@@ -139,7 +145,7 @@ body{
 }
 
 h3{
-    font-family: cursive;
+    font-family: Mali;
     font-size: 25px;
     text-indent: 90px;
     text-align: justify;
@@ -149,7 +155,7 @@ h3{
 
 .t{
     color: #dbf5f2;
-    font-family: cursive;
+    font-family: Mali;
     font-size: 25px;
     text-indent: 90px;
     text-align: justify;
@@ -198,7 +204,7 @@ textarea{
     height: 70px;
     background-color: #7ed5d5;
     border-radius: 10px;
-    font-family: cursive;
+    font-family: Mali;
     color: #00342e;
     border: none;
 }
@@ -230,23 +236,10 @@ img{
     flex-direction: column;
 }
 
-.Next{
-    position: relative;
-    left: 93%;
-    margin-bottom: 8px;
-    width: 80px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    background-color: #16613e;
-    border-radius: 5px;
-    
-}
-
 .Back{
     position: relative;
     top: 58px;
-    left: 21%;
+    left: 20.5%;
     margin-bottom: 8px;
     width: 80px;
     padding-top: 10px;
@@ -261,6 +254,19 @@ img{
     font-size: 25px;
     text-decoration: none;
     font-family: NerkoOne;
+}
+
+.Next{
+    position: relative;
+    left: 93%;
+    margin-bottom: 8px;
+    width: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #16613e;
+    border-radius: 5px;
+    
 }
 
 .Next a{
@@ -343,7 +349,7 @@ img{
     left: 20px;
     top: 20px;
     background-color: #ff7c7c;
-    font-family: cursive;
+    font-family: Mali;
     color: #000000;
 }
 
@@ -358,7 +364,7 @@ img{
     left: 20px;
     top: 20px;
     background-color: rgb(250, 140, 99);
-    font-family: cursive;
+    font-family: Mali;
     color: #000000;
 }
 
@@ -373,7 +379,7 @@ img{
     left: 20px;
     top: 20px;
     background-color: #ffd88f;
-    font-family: cursive;
+    font-family: Mali;
     color: #000000;
 }
 
@@ -388,7 +394,7 @@ img{
     left: 20px;
     top: 20px;
     background-color: rgb(248, 226, 102);
-    font-family: cursive;
+    font-family: Mali;
     color: #000000;
 }
 
@@ -403,7 +409,7 @@ img{
     left: 20px;
     top: 20px;
     background-color: #ffffa3;
-    font-family: cursive;
+    font-family: Mali;
     color: #000000;
 }
 
@@ -418,7 +424,7 @@ img{
     left: 20px;
     top: 20px;
     background-color: #d2fb7e;
-    font-family: cursive;
+    font-family: Mali;
     color: #000000;
 }
 
@@ -433,7 +439,7 @@ img{
     left: 20px;
     top: 20px;
     background-color: #6cfb6c;
-    font-family: cursive;
+    font-family: Mali;
     color: #000000;
 }
 
@@ -448,7 +454,7 @@ img{
     left: 20px;
     top: 20px;
     background-color: #64f5f5;
-    font-family: cursive;
+    font-family: Mali;
     color: #000000;
 }
 
@@ -463,7 +469,7 @@ img{
     left: 20px;
     top: 20px;
     background-color: #6c6cfe;
-    font-family: cursive;
+    font-family: Mali;
     color: #000000; 
 }
 
@@ -478,7 +484,7 @@ img{
     left: 20px;
     top: 20px;
     background-color: #bf6ef9;
-    font-family: cursive;
+    font-family: Mali;
     color: #000000; 
 }
 
@@ -493,7 +499,7 @@ img{
     left: 20px;
     top: 20px;
     background-color: #f968f9;
-    font-family: cursive;
+    font-family: Mali;
     color: #000000;
 }
 

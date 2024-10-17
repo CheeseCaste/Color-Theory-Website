@@ -8,6 +8,8 @@ function myFunction() {
   document.getElementById('myprogress').style.width = scrolled + "%";
 }
 
+//Saturation comparison//
+
 const color1 = document.getElementById('color1');
 const color2 = document.getElementById('color2');
 
@@ -18,6 +20,8 @@ color1.addEventListener('input', function() {
 color2.addEventListener('input', function(){
     document.getElementById('resultBox2').style.backgroundColor = color2.value;
 })
+
+//Hue, value//
 
 function colorChanged(h) {
 

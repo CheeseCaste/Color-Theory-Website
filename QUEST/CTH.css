@@ -1,0 +1,208 @@
+body, h2, a{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: NerkoOne;
+    src: url(/Fonts/NerkoOne-Regular.ttf);
+}
+
+@font-face{
+    font-family: PlaywriteCU;
+    src: url(/Fonts/PlaywriteCU-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Mali;
+    src: url(/Fonts/Mali-SemiBold.ttf);
+}
+
+
+body{
+    background: bottom linear-gradient(#13a393, #1ae5d0) fixed;
+    display: flex;
+}
+
+.Web{
+    display: flex;
+    justify-content: center;
+}
+
+.HOME{
+    display: flex;
+    position: fixed;
+    width: 81%;
+    padding-left: 300px; ;
+    justify-content: space-between;
+    background-color: #039685;
+    z-index: 1;
+}
+
+.HOME a{
+    margin: 20px;
+    margin-right: 0px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: NerkoOne;
+    color: #fff;
+}
+
+.progress-bar{
+    width: 100%;
+    height: 8px;
+    background-color:#019082;
+}
+
+.progress{
+    height: 8px;
+    background-color: aquamarine;
+    width: 0%;
+}
+
+.Web{
+    position: relative;
+    top: -40px;
+    font-family: NerkoOne;
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.L{
+    display: flex;
+    justify-content: center;
+    font-family: NerkoOne;
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: #005047;
+    margin: 20px;
+}
+
+.NAV{
+    display: flex;
+    position: fixed;
+    justify-content: flex-start;
+    justify-content: center;
+    background-color: #026154;
+    padding-bottom: 100px;
+    width: 20%;
+    height: 100vh;
+    z-index: 2;
+}
+
+.Lesson{
+    padding-top: 100px;
+}
+
+.text{
+    padding-left: 350px;
+    padding-right: 30px;
+}
+
+p{
+    font-family: NerkoOne;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0px;
+    color: #dbf5f2;
+}
+
+.t{
+    color: #dbf5f2;
+    font-family: Mali;
+    font-size: 25px;
+    text-indent: 90px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.questions{
+    text-align: center;
+    border-radius: 10px;
+}
+
+.ques{
+    font-family: NerkoOne;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0px;
+    color: #dbf5f2;
+}
+
+.q{
+    display: block;
+    text-decoration: none;
+    font-family: NerkoOne;
+    font-size: 20px;
+    background-color: #61bebe;
+    margin: 5px;
+    padding: 5px;
+    color: #00342e;
+    border-radius: 10px;
+}
+
+label{
+    font-family: NerkoOne;
+    font-size: 25px;
+    color: #dbf5f2;
+    position: relative;
+    left: 55px;
+}
+
+.ccern{
+    position: absolute;
+    bottom: 125px;
+    left: 42px;
+}
+
+textarea{
+    resize: none;
+    width: 80%;
+    height: 70px;
+    background-color: #7ed5d5;
+    border-radius: 10px;
+    font-family: Mali;
+    color: #00342e;
+    border: none;
+}
+
+textarea::placeholder{
+    color: #056157;
+    padding-top: 5px;
+    text-align: center;
+}
+
+img{
+    position: relative;
+    left: 12px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 250px;
+}
+
+.main{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Next{
+    position: relative;
+    left: 93%;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    width: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #16613e;
+    border-radius: 5px;
+}
+
+.Next a{
+    color: #dbf5f2;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: NerkoOne;
+}

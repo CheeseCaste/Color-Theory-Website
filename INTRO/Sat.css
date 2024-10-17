@@ -13,8 +13,13 @@ body, h2, a{
     src: url(/Fonts/PlaywriteCU-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: Mali;
+    src: url(/Fonts/Mali-SemiBold.ttf);
+}
+
 body{
-    background: bottom linear-gradient(#0f8b7d, #11cab7);
+    background: bottom linear-gradient(#0a796c, #0ab5a4);
     display: flex;
 }
 
@@ -86,7 +91,7 @@ body{
     position: fixed;
     justify-content: flex-start;
     justify-content: center;
-    background-color: #015046;
+    background-color: #01413a;
     padding-bottom: 100px;
     width: 20%;
     height: 100vh;
@@ -101,7 +106,7 @@ body{
 .Sat p{
     display: inline;
     font-size: 30px;
-    font-family: cursive;
+    font-family: Mali;
     color: #dbf5f2;
     margin: 5px;
 }
@@ -136,7 +141,7 @@ body{
     width: 40px;
     padding: 10px;
     border: 2px solid #00342e;
-    font-family: cursive;
+    font-family: Mali;
     font-size: 20px;
 }
 
@@ -192,13 +197,32 @@ body{
     padding-right: 30px;
 }
 
+h3{
+    font-family: Mali;
+    font-size: 35px;
+    text-indent: 90px;
+    text-align: justify;
+    color: #00ffe1;
+    text-shadow: -2px 0 #028273, 0 2px #028273, 2px 0 #028273, 0 -2px #028273;
+    margin: 20px;
+}
+
 .t{
     color: #dbf5f2;
-    font-family: cursive;
+    font-family: Mali;
     font-size: 25px;
     text-indent: 90px;
     text-align: justify;
     line-height: 1.5;
+    margin-top: 5px;
+}
+
+p{
+    font-family: NerkoOne;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0px;
+    color: #dbf5f2;
 }
 
 .questions{
@@ -245,7 +269,7 @@ textarea{
     height: 70px;
     background-color: #7ed5d5;
     border-radius: 10px;
-    font-family: cursive;
+    font-family: Mali;
     color: #00342e;
     border: none;
 }
@@ -273,7 +297,7 @@ img{
 .Back{
     position: relative;
     top: 58px;
-    left: 21%;
+    left: 20.5%;
     margin-bottom: 8px;
     width: 80px;
     padding-top: 10px;

@@ -13,8 +13,13 @@ body, h2, a{
     src: url(/Fonts/PlaywriteCU-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: Mali;
+    src: url(/Fonts/Mali-SemiBold.ttf);
+}
+
 body{
-    background: bottom linear-gradient(#0f8b7d, #11cab7);
+    background: bottom linear-gradient(#045349, #019082) fixed;
     display: flex;
 }
 
@@ -31,6 +36,7 @@ body{
     padding-left: 300px; ;
     justify-content: space-between;
     background-color: #028273;
+    z-index: 1;
 }
 
 .HOME a{
@@ -48,7 +54,7 @@ body{
     top: 70px;
     width: 85%;
     height: 8px;
-    background-color:#056157;
+    background-color:#028273;
 }
 
 .progress{
@@ -81,11 +87,69 @@ body{
     position: fixed;
     justify-content: flex-start;
     justify-content: center;
-    background-color: #015046;
+    background-color:#00342e;
     padding-bottom: 100px;
     width: 20%;
     height: 100vh;
-    z-index: 1;
+    z-index: 2;
+}
+
+.Triadic{
+    padding-left: 460px;
+}
+
+.triad{
+    padding-top: 100px;
+    padding-left: 250px;
+}
+
+
+h1{
+    display: inline-block;
+    font-family: NerkoOne;
+    margin: 0px;
+    color: #dbf5f2;
+}
+
+.resultBox1{
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+    border: 5px solid #00342e;
+    border-radius: 10px;
+}
+
+.resultBox2{
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+    border: 5px solid #00342e;
+    border-radius: 10px;
+}
+
+.resultBox3{
+  display: inline-block;
+  width: 300px;
+  height: 150px;
+  border: 5px solid #00342e;
+  border-radius: 10px;
+}
+
+.color{
+    display: inline-block;
+    background-color: #00342e;
+    width: 55px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.Triad{
+    position: relative;
+    width: 300px;
+    left: 37%;
+    padding: 0px;
 }
 
 .text{
@@ -93,9 +157,17 @@ body{
     padding-right: 30px;
 }
 
+p{
+    font-family: NerkoOne;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0px;
+    color: #dbf5f2;
+}
+
 .t{
     color: #dbf5f2;
-    font-family: cursive;
+    font-family: Mali;
     font-size: 25px;
     text-indent: 90px;
     text-align: justify;
@@ -169,6 +241,26 @@ img{
     max-width: 200px;
     display: flex;
     flex-direction: column;
+}
+
+.Back{
+    position: relative;
+    top: 58px;
+    left: 20.5%;
+    margin-bottom: 8px;
+    width: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #16613e;
+    border-radius: 5px;
+}
+
+.Back a{
+    color: #dbf5f2;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: NerkoOne;
 }
 
 .Next{

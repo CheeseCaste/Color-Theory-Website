@@ -13,8 +13,13 @@ body, h2, a{
     src: url(/Fonts/PlaywriteCU-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: Mali;
+    src: url(/Fonts/Mali-SemiBold.ttf);
+}
+
 body{
-    background: bottom linear-gradient(#0f8b7d, #11cab7);
+    background: bottom linear-gradient(#045349, #019082) fixed;
     display: flex;
 }
 
@@ -49,7 +54,7 @@ body{
     top: 70px;
     width: 85%;
     height: 8px;
-    background-color:#056157;
+    background-color:#028273;
 }
 
 .progress{
@@ -82,11 +87,69 @@ body{
     position: fixed;
     justify-content: flex-start;
     justify-content: center;
-    background-color: #015046;
+    background-color:#00342e;
     padding-bottom: 100px;
     width: 20%;
     height: 100vh;
     z-index: 2;
+}
+
+.Sat{
+    padding-left: 23%;
+    padding-top: 100px;
+}
+
+.val{
+    padding-left: 10%;
+}
+
+.Sat p{
+    display: inline;
+    font-size: 30px;
+    font-family: Mali;
+    color: #dbf5f2;
+    margin: 5px;
+}
+
+.range{
+    position: relative;
+    appearance: none;
+    background: #61bebe;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+    height: 20px;
+    margin: 30px;
+}
+
+.range::-webkit-slider-thumb{
+    background-color: #16613e;
+    height: 35px;
+    width: 35px;
+    border: 0px;
+    appearance: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.range:hover{
+    opacity: 1;
+}
+
+.Val{
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border: 2px solid #00342e;
+    font-family: Mali;
+    font-size: 20px;
+}
+
+.Mono{
+    position: relative;
+    width: 300px;
+    left: 37%;
+    padding: 0px;
 }
 
 .text{
@@ -94,9 +157,17 @@ body{
     padding-right: 30px;
 }
 
+p{
+    font-family: NerkoOne;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0px;
+    color: #dbf5f2;
+}
+
 .t{
     color: #dbf5f2;
-    font-family: cursive;
+    font-family: Mali;
     font-size: 25px;
     text-indent: 90px;
     text-align: justify;
@@ -175,7 +246,7 @@ img{
 .Back{
     position: relative;
     top: 58px;
-    left: 21%;
+    left: 20.5%;
     margin-bottom: 8px;
     width: 80px;
     padding-top: 10px;

@@ -13,6 +13,11 @@ body, h2, a{
     src: url(/Fonts/PlaywriteCU-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: Mali;
+    src: url(/Fonts/Mali-SemiBold.ttf);
+}
+
 body{
     background-image: 
         url("/img/background.svg"),
@@ -81,7 +86,7 @@ body{
     margin-bottom: 20px;
     color: #d2fffa;
     font-size: 25px;
-    font-family: Nerkoone;
+    font-family: NerkoOne;
     text-decoration: none;
     
 }
@@ -123,21 +128,21 @@ body{
 
 .One{
     font-size: 50px;
-    font-family: cursive;
+    font-family: Mali;
     color: #0a6259;
 }
 
 .Two{
     display: none;
     font-size: 40px;
-    font-family: cursive;
+    font-family: Mali;
     color: #0a6259;
 }
 
 .Three{
     display: none;
     font-size: 40px;
-    font-family: cursive;
+    font-family: Mali;
     color: #0a6259;
 }
 
@@ -181,7 +186,7 @@ ul{
 
 ul p{
     margin: 15px;
-    font-family: cursive;
+    font-family: Mali;
     font-size: 30px;
     color: #0a6259;
 }
@@ -209,7 +214,7 @@ ul p{
 
 .choice li a{
     display: inline-block;
-    font-family: cursive;
+    font-family: Mali;
     font-weight: bold;
     text-decoration: none;
     color: #0a6259;
@@ -301,7 +306,7 @@ img{
 
 .choice li a{
     display: inline-block;
-    font-family: cursive;
+    font-family: Mali;
     font-weight: bold;
     text-decoration: none;
     color: #0a6259;
@@ -325,27 +330,27 @@ img{
 
 .One{
     font-size: 50px;
-    font-family: cursive;
+    font-family: Mali;
     color: #0a6259;
 }
 
 .Two{
     display: none;
     font-size: 40px;
-    font-family: cursive;
+    font-family: Mali;
     color: #0a6259;
 }
 
 .Three{
     display: none;
     font-size: 40px;
-    font-family: cursive;
+    font-family: Mali;
     color: #0a6259;
 }
 
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
 
 .bar{
     width: 35px;
@@ -395,7 +400,7 @@ img{
     margin-bottom: 20px;
     color: #d2fffa;
     font-size: 25px;
-    font-family: Nerkoone;
+    font-family: NerkoOne;
     text-decoration: none;
     
 }
@@ -423,21 +428,21 @@ img{
 
 .One{
     font-size: 40px;
-    font-family: cursive;
+    font-family: Mali;
     color: #0a6259;
 }
 
 .Two{
     display: none;
     font-size: 30px;
-    font-family: cursive;
+    font-family: Mali;
     color: #0a6259;
 }
 
 .Three{
     display: none;
     font-size: 30px;
-    font-family: cursive;
+    font-family: Mali;
     color: #0a6259;
 }
 
@@ -449,14 +454,14 @@ ul{
 
 ul p{
     margin: 5px;
-    font-family: cursive;
+    font-family: Mali;
     font-size: 30px;
     color: #0a6259;
 }
 
 .choice li a{
     display: inline-block;
-    font-family: cursive;
+    font-family: Mali;
     font-weight: bold;
     text-decoration: none;
     color: #0a6259;
@@ -498,6 +503,12 @@ img{
 }
 
 @media screen and (max-width: 768px) {
+
+body{
+    width: 100%;
+    overflow: hidden;
+    background-position: 0% 100%, 70% 50%;
+}
     
 .box {
     width: 100%;
@@ -511,7 +522,7 @@ img{
     padding-bottom: 80px;
     padding: 20px 90px 40px 100px;
     position: absolute;
-    left: 0%;
+    left: 12%;
     top: 4%;
 }
 
@@ -575,11 +586,11 @@ img{
 
 .choice li a{
     display: inline-block;
-    font-family: cursive;
+    font-family: Mali;
     font-weight: bold;
     text-decoration: none;
     color: #0a6259;
-    font-size: 20px;
+    font-size: 30px;
     border-radius: 10px;
     padding: 10px;
     width: 100%;
@@ -693,21 +704,21 @@ main{
 
 .One{
     font-size: 50px;
-    font-family: cursive;
+    font-family: Mali;
     color: #0a6259;
 }
 
 .Two{
     display: none;
     font-size: 40px;
-    font-family: cursive;
+    font-family: Mali;
     color: #0a6259;
 }
 
 .Three{
     display: none;
     font-size: 40px;
-    font-family: cursive;
+    font-family: Mali;
     color: #0a6259;
 }
 
@@ -757,7 +768,7 @@ img{
 
 .choice li a{
     display: inline-block;
-    font-family: cursive;
+    font-family: Mali;
     font-weight: bold;
     text-decoration: none;
     color: #0a6259;
@@ -771,7 +782,7 @@ img{
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     
 body{
     width: 100vw;
@@ -822,21 +833,21 @@ main{
 
 .One{
     font-size: 50px;
-    font-family: cursive;
+    font-family: Mali;
     color: #0a6259;
 }
 
 .Two{
     display: none;
     font-size: 40px;
-    font-family: cursive;
+    font-family: Mali;
     color: #0a6259;
 }
 
 .Three{
     display: none;
     font-size: 40px;
-    font-family: cursive;
+    font-family: Mali;
     color: #0a6259;
 }
 
@@ -850,7 +861,7 @@ img{
     display: block;
     position: relative;
     top: 160%;
-    left: -10px;
+    left: -50px;
     width: 90%;
 }
 
@@ -886,7 +897,7 @@ img{
 
 .choice li a{
     display: inline-block;
-    font-family: cursive;
+    font-family: Mali;
     font-weight: bold;
     text-decoration: none;
     color: #0a6259;
@@ -897,4 +908,132 @@ img{
     background-color:#4db6ac;
     text-transform: uppercase;
 }
+}
+
+@media screen and (max-width: 376px) {
+    body{
+        width: 100vw;
+        background-position: 0% 100%, 50% 0%;
+        overflow: hidden;
+    }
+    
+    main{
+        max-width: 100%;
+        width: 1200px;
+        margin: auto auto;
+        padding: 0px 0px;
+        box-sizing: border-box;
+    }
+    
+    .box {
+        width: 100%;
+        margin: 40px auto;
+        background-color: #DDFFFB;
+        box-shadow: 20px 20px #98FCF0;
+        border-radius: 20px;
+        padding-left: 80px;
+        padding-right: 130px;
+        padding-top: 130px;
+        padding-bottom: 80px;
+        padding: 20px 90px 40px 100px;
+        position: absolute;
+        top: 10%;
+        left: 5%;
+    }
+    
+    .sb1::before{
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 30px solid #DDFFFB;
+        border-right: 30px solid transparent;
+        border-top: 30px solid #DDFFFB;
+        border-bottom: 30px solid transparent;
+        left: 50%;
+        bottom: -55px;
+    }
+    
+    .Fourth{
+        display: none;
+        list-style-type: none;
+    }
+    
+    .One{
+        font-size: 50px;
+        font-family: Mali;
+        color: #0a6259;
+    }
+    
+    .Two{
+        display: none;
+        font-size: 40px;
+        font-family: Mali;
+        color: #0a6259;
+    }
+    
+    .Three{
+        display: none;
+        font-size: 40px;
+        font-family: Mali;
+        color: #0a6259;
+    }
+    
+    ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    img{
+        display: block;
+        position: relative;
+        top: 80%;
+        left: -80px;
+        width: 200%;
+    }
+    
+    .avatarcont{
+        display: inline-block;  
+        position: relative;
+    }
+    
+    .wcsign{
+        position: absolute;
+        font-family: NerkoOne;
+        font-size: 50px;
+        color: #d2fffa;
+        top: -8%;
+        left: 40%;
+        z-index: -1;
+    }
+    
+    .namesign{
+        position: absolute;
+        top: -3%;
+        left: 27%;
+        font-family: PlaywriteCU;
+        font-size: 30px;
+        color: #00796B;
+        width: 400px;
+    }
+    
+    .choice li a:hover{
+        position: relative;
+        top: -3px;
+    }
+    
+    .choice li a{
+        display: inline-block;
+        font-family: Mali;
+        font-weight: bold;
+        text-decoration: none;
+        color: #0a6259;
+        font-size: 25px;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+        background-color:#4db6ac;
+        text-transform: uppercase;
+    }
 }
