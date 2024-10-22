@@ -18,8 +18,9 @@ body, h2, a{
     src: url(/Fonts/Mali-SemiBold.ttf);
 }
 
+
 body{
-    background: bottom linear-gradient(#0f8b7d, #11cab7);
+    background: bottom linear-gradient(#13a393, #1ae5d0) fixed;
     display: flex;
 }
 
@@ -34,7 +35,8 @@ body{
     width: 81%;
     padding-left: 300px; ;
     justify-content: space-between;
-    background-color: #028273;
+    background-color: #039685;
+    z-index: 1;
 }
 
 .HOME a{
@@ -47,12 +49,9 @@ body{
 }
 
 .progress-bar{
-    position: fixed;
-    left: 280px;
-    top: 70px;
-    width: 85%;
+    width: 100%;
     height: 8px;
-    background-color:#056157;
+    background-color:#019082;
 }
 
 .progress{
@@ -76,7 +75,7 @@ body{
     font-family: NerkoOne;
     font-size: 30px;
     letter-spacing: 4px;
-    color: #00342e;
+    color: #005047;
     margin: 20px;
 }
 
@@ -85,23 +84,20 @@ body{
     position: fixed;
     justify-content: flex-start;
     justify-content: center;
-    background-color: #015046;
+    background-color: #026154;
     padding-bottom: 100px;
     width: 20%;
     height: 100vh;
-    z-index: 1;
+    z-index: 2;
 }
 
 h3{
-    font-family: NerkoOne;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 50px;
-    text-align: center;
+    font-family: Mali;
+    font-size: 40px;
+    text-indent: 90px;
+    text-align: justify;
     color: #00ffe1;
-    text-shadow:-5px 4px #04766b;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin: 5px;
 }
 
 .Lesson{
@@ -121,6 +117,19 @@ p{
     color: #dbf5f2;
 }
 
+.s{
+    padding: 30px;
+    font-size: 35px;
+}
+
+.f{
+    color: #dbf5f2;
+    font-family: Mali;
+    font-size: 25px;
+    text-indent: 90px;
+    text-align: justify;
+    line-height: 1.5;
+}
 
 .t{
     color: #dbf5f2;
@@ -129,12 +138,12 @@ p{
     text-indent: 90px;
     text-align: justify;
     line-height: 1.5;
+    padding: 0px 70px;
 }
+
 .questions{
-    position: relative;
     text-align: center;
     border-radius: 10px;
-    top: -50px;
 }
 
 .ques{
@@ -157,60 +166,21 @@ p{
     border-radius: 10px;
 }
 
-.fastn{
-    position: relative;
-    top: -30px;
-    left: -30px;
-    width: 90%;
-    height: 200px;
-    padding: 0px 20px;
-    overflow: scroll;
-    overflow-x: hidden;
-}
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-  
-::-webkit-scrollbar-track {
-    background: #026154; 
-    border-radius: 5px
-}
-
-::-webkit-scrollbar-thumb {
-    background: #00342e; 
-    border-radius: 5px
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #005047; 
-}
-
-.na{
+.imga{
     display: inline-block;
-    font-family: Mali;
-    font-size: 15px;
-    padding: 5px;
-    text-decoration: none;
-    color: #6cf1b3;
-    padding: 10px;
-}
-
-li{
-    list-style-type: none;
-    background-color: #028273;
-    border-radius: 7px;
-    margin: 5px;
+    position: relative;
+    left: 35%;
+    margin-right: 10px;
+    width: 300px;
 }
 
 img{
     position: relative;
-    top: -20px;
-    left: 27px;
+    left: 12px;
     padding-top: 50px;
     padding-bottom: 30px;
     width: 250px;
-}s
+}
 
 .main{
     max-width: 200px;

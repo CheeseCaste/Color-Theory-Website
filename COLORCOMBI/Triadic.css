@@ -174,9 +174,12 @@ p{
     line-height: 1.5;
 }
 
+
 .questions{
+    position: relative;
     text-align: center;
     border-radius: 10px;
+    top: -50px;
 }
 
 .ques{
@@ -194,44 +197,61 @@ p{
     font-size: 25px;
     background-color: #61bebe;
     margin: 5px;
+    padding: 5px;
     color: #00342e;
     border-radius: 10px;
 }
 
-label{
-    font-family: NerkoOne;
-    font-size: 25px;
-    color: #dbf5f2;
+.fastn{
     position: relative;
-    left: 55px;
+    top: -30px;
+    left: -30px;
+    width: 90%;
+    height: 200px;
+    padding: 0px 20px;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
-.ccern{
-    position: absolute;
-    bottom: 125px;
-    left: 42px;
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #028273; 
+    border-radius: 5px
 }
 
-textarea{
-    resize: none;
-    width: 80%;
-    height: 70px;
-    background-color: #7ed5d5;
-    border-radius: 10px;
-    font-family: cursive;
-    color: #00342e;
-    border: none;
+::-webkit-scrollbar-thumb {
+    background: #045349; 
+    border-radius: 5px
 }
 
-textarea::placeholder{
-    color: #056157;
-    padding-top: 5px;
-    text-align: center;
+::-webkit-scrollbar-thumb:hover {
+    background: #005047; 
 }
 
-img{
+.na{
+    display: inline-block;
+    font-family: Mali;
+    font-size: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: #6cf1b3;
+    padding: 10px;
+}
+
+.l{
+    list-style-type: none;
+    background-color: #028273;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+.img1{
     position: relative;
-    left: 12px;
+    top: -20px;
+    left: 27px;
     padding-top: 50px;
     padding-bottom: 30px;
     width: 250px;

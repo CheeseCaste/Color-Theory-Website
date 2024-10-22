@@ -26,38 +26,7 @@ body{
     background-repeat: no-repeat, no-repeat;
     background-position: 0% 20%, 0% 50%;
     overflow: hidden;
-}
-
-
-.appli{
-    position: relative;
-    top: -550px;
-    display: grid;
-    padding-left: 100px;
-    column-gap: 200px;
-    row-gap: 30px;
-    grid-template-columns: 300px 300px;
-}
-
-.cont{
-    display: grid;
-    grid-template-columns: 400px;
-    position: relative;
-    left: 72%;
-}
-
-.tipsTr{
-    position: relative;
-    left: 300px;
-}
-
-p{
-    display: block;
-    font-family: Mali;
-    font-size: 25px;
-    margin: 0px;
-    text-align: justify;
-    color: aliceblue;
+    
 }
 
 a{
@@ -73,29 +42,12 @@ a{
     color: aliceblue;
     text-shadow:-5px 4px #04766b;;
     margin-left: 20px;
-
 }
 
-h2{
-    font-family: NerkoOne;
-    font-size: 50px;
-    display: inline-block;
-    text-decoration: none;
-    color: aliceblue;
-    text-shadow:-5px 4px #04766b;
-}
-
-.Cat{
-    width: 300px;
-}
-
-.Shad1{
+table{
+    display: grid;
     position: relative;
-    left: 35px;
-    width: 300px;
-}
-
-
-.Hue{
-    width: 400px;
+    left: 50px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
 }

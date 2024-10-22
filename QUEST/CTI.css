@@ -48,7 +48,10 @@ body{
 }
 
 .progress-bar{
-    width: 100%;
+    position: fixed;
+    left: 280px;
+    top: 77px;
+    width: 85%;
     height: 8px;
     background-color:#019082;
 }
@@ -122,8 +125,10 @@ p{
 }
 
 .questions{
+    position: relative;
     text-align: center;
     border-radius: 10px;
+    top: -40px;
 }
 
 .ques{
@@ -138,12 +143,57 @@ p{
     display: block;
     text-decoration: none;
     font-family: NerkoOne;
-    font-size: 20px;
+    font-size: 25px;
     background-color: #61bebe;
     margin: 5px;
     padding: 5px;
     color: #00342e;
     border-radius: 10px;
+}
+
+.fastn{
+    position: relative;
+    top: -20px;
+    left: -30px;
+    width: 90%;
+    height: 200px;
+    padding: 0px 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #026154; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00342e; 
+    border-radius: 5px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #005047; 
+}
+
+.na{
+    display: inline-block;
+    font-family: Mali;
+    font-size: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: #6cf1b3;
+}
+
+li{
+    list-style-type: none;
+    background-color: #005047;
+    padding: 5px;
+    border-radius: 7px;
+    margin: 5px;
 }
 
 label{
@@ -199,7 +249,8 @@ button{
 
 img{
     position: relative;
-    left: 12px;
+    top: -20px;
+    left: 27px;
     padding-top: 50px;
     padding-bottom: 30px;
     width: 250px;

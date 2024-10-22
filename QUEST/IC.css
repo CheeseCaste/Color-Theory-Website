@@ -1,3 +1,23 @@
+body, h2, a{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: NerkoOne;
+    src: url(/Fonts/NerkoOne-Regular.ttf);
+}
+
+@font-face{
+    font-family: PlaywriteCU;
+    src: url(/Fonts/PlaywriteCU-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Mali;
+    src: url(/Fonts/Mali-SemiBold.ttf);
+}
+
 body{
     background: bottom linear-gradient(#0f8b7d, #11cab7);
     display: flex;
@@ -7,7 +27,6 @@ body{
     display: flex;
     justify-content: center;
 }
-
 
 .HOME{
     display: flex;
@@ -71,4 +90,150 @@ body{
     width: 20%;
     height: 100vh;
     z-index: 1;
+}
+
+h3{
+    font-family: NerkoOne;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 50px;
+    text-align: center;
+    color: #00ffe1;
+    text-shadow:-5px 4px #04766b;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.Lesson{
+    padding-top: 100px;
+}
+
+.text{
+    padding-left: 350px;
+    padding-right: 30px;
+}
+
+p{
+    font-family: NerkoOne;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0px;
+    color: #dbf5f2;
+}
+
+.t{
+    color: #dbf5f2;
+    font-family: Mali;
+    font-size: 25px;
+    text-indent: 90px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.questions{
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    top: -50px;
+}
+
+.ques{
+    font-family: NerkoOne;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0px;
+    color: #dbf5f2;
+}
+
+.q{
+    display: block;
+    text-decoration: none;
+    font-family: NerkoOne;
+    font-size: 25px;
+    background-color: #61bebe;
+    margin: 5px;
+    padding: 5px;
+    color: #00342e;
+    border-radius: 10px;
+}
+
+.fastn{
+    position: relative;
+    top: -30px;
+    left: -30px;
+    width: 90%;
+    height: 200px;
+    padding: 0px 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #026154; 
+    border-radius: 5px
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00342e; 
+    border-radius: 5px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #005047; 
+}
+
+.na{
+    display: inline-block;
+    font-family: Mali;
+    font-size: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: #6cf1b3;
+    padding: 10px;
+}
+
+li{
+    list-style-type: none;
+    background-color: #028273;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+img{
+    position: relative;
+    top: -20px;
+    left: 27px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 250px;
+}
+
+.main{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Next{
+    position: relative;
+    left: 93%;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    width: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #16613e;
+    border-radius: 5px;
+}
+
+.Next a{
+    color: #dbf5f2;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: NerkoOne;
 }

@@ -14,7 +14,8 @@ body, h2, a{
 }
 
 body{
-    background: linear-gradient(#e1f1a9 22%, #6cede1 88%);}
+    background: linear-gradient(#e1f1a9 22%, #6cede1 88%) fixed;
+}
 
 h1{
     font-family: NerkoOne;
@@ -34,10 +35,11 @@ nav a{
 .Res{
     text-align: center;
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: 200px 200px;
+    grid-template-columns: auto auto;
+    grid-template-rows: 250px 250px 250px 250px;
     grid-row-gap: 150px;  
-    justify-items: center;  
+    justify-items: center; 
+    padding-bottom: 200px; 
 }
 
 .name{
@@ -52,7 +54,19 @@ nav a{
 .title{
     font-family: NerkoOne;
     margin: 5px;
+    width: 290px;
+    margin-bottom: 0px;
     color: aqua;
+    background-color: #0a6259;
+}
+
+.contacts{
+    font-family: NerkoOne;
+    font-size: 20px;
+    margin: 0px;
+    margin-left: 5px;
+    width: 290px;
+    color: aliceblue;
     background-color: #0a6259;
 }
 
