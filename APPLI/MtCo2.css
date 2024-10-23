@@ -24,6 +24,8 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat, no-repeat;
     background-position: 0% 20%, 0% 50%;
+    overflow: hidden;
+    
 }
 
 a{
@@ -41,7 +43,7 @@ a{
 h1{
     display: inline-block;
     position: relative;
-    left: 430px;
+    left: 450px;
     font-family: NerkoOne;
     font-size: 50px;
     color: white;
@@ -54,12 +56,10 @@ h1{
 h2{
     display: inline-block;
     position: relative;
-    left: 50px;
-    top: 15px;
+    top: -190px;
     font-family: PlaywriteCU;
     font-size: 40px;
     color: #00584e;
-    text-shadow:-5px 4px #91e9e0;
     text-align: center;
 }
 
@@ -135,84 +135,6 @@ input{
     border: 2px solid white;
     border-radius: 50%;
     background-color: red;
-}
-
-.ch3{
-    display: none;
-    margin: 5px;
-    width: 10px;
-    height: 10px;
-    border: 2px solid white;
-    border-radius: 50%;
-    background-color: red;
-}
-
-.ch4{
-    display: none;
-    margin: 5px;
-    width: 10px;
-    height: 10px;
-    border: 2px solid white;
-    border-radius: 50%;
-    background-color: red;
-}
-
-.ch5{
-    display: none;
-    margin: 5px;
-    width: 10px;
-    height: 10px;
-    border: 2px solid white;
-    border-radius: 50%;
-    background-color: red;
-}
-
-.ch6{
-    display: none;
-    margin: 5px;
-    width: 10px;
-    height: 10px;
-    border: 2px solid white;
-    border-radius: 50%;
-    background-color: red;
-}
-
-.ch7{
-    display: none;
-    margin: 5px;
-    width: 10px;
-    height: 10px;
-    border: 2px solid white;
-    border-radius: 50%;
-    background-color: red;
-}
-
-.Chn1{
-    display: none;
-    color: white;
-    position: relative;
-    top: -250px;
-    left: 56%;
-    font-family: Mali;
-    font-size: 35px;
-}
-
-.Chn2{
-    display: none;
-    position: relative;
-    top: -100px;
-    left: 55%;
-    font-family: Mali;
-    font-size: 25px;
-}
-
-.Chn3{
-    display: none;
-    position: relative;
-    top: -100px;
-    left: 55%;
-    font-family: Mali;
-    font-size: 25px;
 }
 
 img{
