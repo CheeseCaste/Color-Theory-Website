@@ -9,12 +9,15 @@
 <body>
 
     <nav class="home">
-        <a href="/START/index2.html">HOME</a>
+        <a href="appli.html">HOME</a>
         <h1>GUESS THE COLORS</h1>
         <h2>guess the colors</h2>
     </nav>
 
-    <img src="/img2/Coffee (1).jpg">
+    <img class="img1" id="img1" src="/img2/Coffee (1).jpg">
+    <img class="img2" id="img2" src="/img2/Coffee (2).png">
+
+    <p>Pick a number from the color palette that you think is the answer or the color that corresponds to the number on the drawing.</p>
 
     <table>
         <tr>
@@ -92,24 +95,22 @@
     </table>
 
     <form id="myForm" onsubmit="checkAnswer(); return false" onreset="resetAll()">
-    <label class="t">1 = <input id="intLimitTextBox"><div class="ch1" id="che"></div></label>
-
-    <label class="t">2 = <input id="intLimitTextBox1"><div class="ch2" id="che1"></div></label>
-
-    <label class="t">3 = <input id="intLimitTextBox2"><div class="ch3" id="che2"></div></label>
-    
-    <label class="t">4 = <input id="intLimitTextBox3"><div class="ch4" id="che3"></div></label>
-
-    <label class="t">5 = <input id="intLimitTextBox4"><div class="ch5" id="che4"></div></label>
-
-    <label class="t">6 = <input id="intLimitTextBox5"><div class="ch6" id="che5"></div></label>
-    
-    <label class="t">7 = <input id="intLimitTextBox6"><div class="ch7" id="che6"></div></label>
-    
-    <input type="submit" class="sub">
-    <input type="reset" class="sub" id="reset">
-
+        <label class="t">1 = <input id="intLimitTextBox"><div class="ch1" id="che"></div></label>
+        <label class="t">4 = <input id="intLimitTextBox3"><div class="ch4" id="che3"></div></label>
+        <label class="t">6 = <input id="intLimitTextBox5"><div class="ch6" id="che5"></div></label>
+        <label class="t">2 = <input id="intLimitTextBox1"><div class="ch2" id="che1"></div></label>
+        <label class="t">5 = <input id="intLimitTextBox4"><div class="ch5" id="che4"></div></label>
+        <label class="t">7 = <input id="intLimitTextBox6"><div class="ch7" id="che6"></div></label>
+        <label class="t">3 = <input id="intLimitTextBox2"><div class="ch3" id="che2"></div></label>      
+        <input type="submit" class="sub">
+        <input type="reset" class="sub" id="reset">
     </form>
+
+    <div>
+        <p class="Next"><a href="MtCo2.html">NEXT</a></p>
+    </div>
+
+    <button class="btn" id="btn">ANSWER</button>
 
     <p class="Chn1" id="Chn1">Very good! You got it all!</p>
     <p class="Chn2" id="Chn2">You're almost there!</p>

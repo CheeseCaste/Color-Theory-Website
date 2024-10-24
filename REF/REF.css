@@ -1,0 +1,65 @@
+body, h2, a{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: NerkoOne;
+    src: url(/Fonts/NerkoOne-Regular.ttf);
+}
+
+@font-face{
+    font-family: PlaywriteCU;
+    src: url(/Fonts/PlaywriteCU-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Mali;
+    src: url(/Fonts/Mali-SemiBold.ttf);
+}
+
+body{
+    background: radial-gradient(#119283, #03322d) fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+nav{
+    display: inline-block;
+    padding: 10px;
+    border: 10px solid #019082;
+    border-radius: 10% 25%;
+    background-color: #019082;
+}
+
+nav a{
+    font-family: NerkoOne;
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.les{
+    display: inline-block;
+    padding: 10px;
+    border: 10px solid #019082;
+    border-radius: 15px;
+    background-color: #019082;
+    font-family: NerkoOne;
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 10px;
+}
+
+.refs{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.t{
+    font-family: Mali;
+    font-size: 30px;
+    color: white;
+
+}

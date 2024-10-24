@@ -82,8 +82,12 @@ function resetAll() {
   ch6.style.display = "none";
 
   const Chn1 = document.getElementById('Chn1');
+  const Chn2 = document.getElementById('Chn2');
+  const Chn3 = document.getElementById('Chn3');
+  
   Chn1.style.display = "none";
-
+  Chn2.style.display = "none";
+  Chn3.style.display = "none";
 };
 
 let g1 = 0;
@@ -93,6 +97,7 @@ let g4 = 0;
 let g5 = 0;
 let g6 = 0;
 let g7 = 0;
+let g = 0;
 
 function checkAnswer(){
     const c1 = document.getElementById('intLimitTextBox').value;
@@ -129,6 +134,7 @@ function checkAnswer(){
             ch.style.display = "inline-block";
             ch.style.backgroundColor = "green";
             g1 = g1+1;
+            g++;
         }
 
         else{
@@ -139,6 +145,7 @@ function checkAnswer(){
             ch1.style.display = "inline-block";
             ch1.style.backgroundColor = "green";
             g2 = g2+1;
+            g++;
         }
 
         else{
@@ -149,6 +156,7 @@ function checkAnswer(){
           ch2.style.display = "inline-block";
           ch2.style.backgroundColor = "green";
           g3 = g3+1;
+          g++;
       }
 
         else{
@@ -159,6 +167,7 @@ function checkAnswer(){
           ch3.style.display = "inline-block";
           ch3.style.backgroundColor = "green";
           g4 = g4+1;
+          g++;
       }
 
         else{
@@ -169,6 +178,7 @@ function checkAnswer(){
           ch4.style.display = "inline-block";
           ch4.style.backgroundColor = "green";
           g5 = g5+1;
+          g++;
       }
 
         else{
@@ -179,6 +189,7 @@ function checkAnswer(){
           ch5.style.display = "inline-block";
           ch5.style.backgroundColor = "green";
           g6 = g6+1;
+          g++;
       }
 
         else{
@@ -189,6 +200,7 @@ function checkAnswer(){
           ch6.style.display = "inline-block";
           ch6.style.backgroundColor = "green";
           g7 = g7+1;
+          g++;
       }
 
         else{
@@ -201,14 +213,42 @@ function checkAnswer(){
 
     Chn1.style.display = 'inline-block';
     confet();
+    g=0;
+    g1--;
+    g2--;
+    g3--;
+    g4--;
+    g5--;
+    g6--;
+    g7--;
 }
 
-  if(g1 == 1 || g2 == 1 || g3 == 1 || g4 == 1 || g5 == 1 || g6 == 1 || g7 == 1){
+  else if((g>2)&&(g<7)){
     const Chn2 = document.getElementById('Chn2');
 
     Chn2.style.display = 'inline-block';
+    g=0;
+    g1=0;
+    g2=0;
+    g3=0;
+    g4=0;
+    g5=0;
+    g6=0;
+    g7=0;
+  }
 
-    
+  else if(g<=2){
+    const Chn3 = document.getElementById('Chn3');
+
+    Chn3.style.display = 'inline-block';
+    g=0;
+    g1=0;
+    g2=0;
+    g3=0;
+    g4=0;
+    g5=0;
+    g6=0;
+    g7=0;
   }
 
   console.log(g1, g2, g3, g4, g5, g6, g7);
@@ -222,3 +262,21 @@ const jsConfetti = new JSConfetti();
 function confet(){
   jsConfetti.addConfetti();
 }
+
+const btn = document.getElementById('btn');
+const img1 = document.getElementById('img1');
+const img2 = document.getElementById('img2');
+let m = 0;
+
+btn.addEventListener('click', function(){
+  m++
+  if(m==1){
+    img1.style.display = "none";
+    img2.style.display = "inline-block";
+  }
+  if(m==2){
+    img1.style.display = "inline-block";
+    img2.style.display = "none";
+    m=0;
+  }
+});

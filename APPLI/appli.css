@@ -33,10 +33,10 @@ body{
     position: relative;
     top: -550px;
     display: grid;
-    padding-left: 100px;
+    padding-left: 80px;
     column-gap: 200px;
     row-gap: 30px;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 390px 390px;
 }
 
 .cont{
@@ -83,9 +83,12 @@ h2{
     text-decoration: none;
     color: aliceblue;
     text-shadow:-5px 4px #04766b;
+    letter-spacing: 2px;
 }
 
 .Cat{
+    position: relative;
+    left: 40px;
     width: 300px;
 }
 
@@ -95,6 +98,10 @@ h2{
     width: 300px;
 }
 
+.tipstr{
+    position: relative;
+    width: 300px;
+}
 
 .Hue{
     width: 400px;

@@ -1,0 +1,186 @@
+body, h2, a{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: NerkoOne;
+    src: url(/Fonts/NerkoOne-Regular.ttf);
+}
+
+@font-face{
+    font-family: PlaywriteCU;
+    src: url(/Fonts/PlaywriteCU-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Mali;
+    src: url(/Fonts/Mali-SemiBold.ttf);
+}
+
+body{
+    background: linear-gradient( #44b496, #065548) fixed;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.home a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: NerkoOne;
+    font-size: 50px;
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow:-5px 4px #04766b;
+    margin-left: 20px;
+}
+
+.h1{
+    display: inline-block;
+    position: relative;
+    left: 480px;
+    font-family: NerkoOne;
+    font-size: 50px;
+    color: white;
+    text-shadow:-5px 4px #04766b;
+    letter-spacing: 5px;
+    margin: 0px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.hh1{
+    display: inline-block;
+    font-family: NerkoOne;
+    font-size: 30px;
+    color: white;
+    text-shadow:-5px 4px #04766b;
+    letter-spacing: 5px;
+    margin: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2{
+    display: inline-block;
+    position: relative;
+    left: 70px;
+    top: 30px;
+    font-family: PlaywriteCU;
+    font-size: 30px;
+    color: #00584e;
+    text-shadow:-5px 4px #91e9e0;
+    text-align: center;
+}
+
+
+.lesson {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+.column {
+    flex: 50%;
+    padding: 10px;
+  }
+
+.t{
+    font-family: Mali;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    text-indent: 90px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.y{
+    font-family: Mali;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    text-wrap: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+
+.bold{
+    color: midnightblue;
+    font-size: 25px;
+}
+
+.ital{
+    text-decoration: underline;
+}
+
+td img{
+    position: relative;
+    left: 40px;
+    width: 300px;
+}
+
+img{
+    display: inline-block;
+    width: 400px;
+}
+
+.img1{
+    display: inline-block;
+    position: relative;
+    left: 45px;
+    width: 600px;
+}
+
+.img2{
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    width: 400px;
+}
+
+.img3{
+    display: inline-block;
+    position: relative;
+    top: -30px;
+    left: 200px;
+    width: 400px;
+}
+
+.Btn {
+    display: inline-block;
+    position: fixed;
+    bottom: 90%;
+    left: 95%;
+    top: 90%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #019082;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.Btn:hover {
+    background-color: aquamarine;
+}
+
+.arrow{
+    position: relative;
+    bottom: 8px;
+    border: solid #ffffff;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.up{
+    position: relative;
+    transform: rotate(-135deg);
+}

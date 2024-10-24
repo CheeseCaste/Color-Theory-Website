@@ -28,7 +28,7 @@ body{
     
 }
 
-a{
+.home a{
     text-decoration: none;
     color: aliceblue;
     font-family: NerkoOne;
@@ -43,7 +43,7 @@ a{
 h1{
     display: inline-block;
     position: relative;
-    left: 450px;
+    left: 420px;
     font-family: NerkoOne;
     font-size: 50px;
     color: white;
@@ -56,18 +56,32 @@ h1{
 h2{
     display: inline-block;
     position: relative;
-    top: -190px;
+    left: 50px;
+    top: 15px;
     font-family: PlaywriteCU;
     font-size: 40px;
     color: #00584e;
+    text-shadow:-5px 4px #91e9e0;
     text-align: center;
+}
+
+p{
+    display: inline-block;
+    position: relative;
+    top: -50px;
+    left: 52%;
+    width: 200px;
+    font-family: Mali;
+    text-align: justify;
+    font-size: 25px;
+    color: white;
 }
 
 table{
     display: inline-block;
     position: relative;
-    top: -120px;
-    left: -350px;
+    top: -10px;
+    left: -580px;
     background-color: white;
     width: 550px;
 }
@@ -80,7 +94,6 @@ td{
 form{
     display: grid;
     position: relative;
-    top: -70px;
     left: 100px;
     grid-template-columns: 150px 150px 150px  150px;
     gap: 10px;
@@ -137,11 +150,162 @@ input{
     background-color: red;
 }
 
-img{
+.ch3{
+    display: none;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.ch4{
+    display: none;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.ch5{
+    display: none;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.ch6{
+    display: none;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.ch7{
+    display: none;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.ch8{
+    display: none;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.ch9{
+    display: none;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.Chn1{
+    display: none;
+    color: white;
+    position: relative;
+    top: -320px;
+    left: 46%;
+    width: 500px;
+    font-family: Mali;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.Chn2{
+    display: none;
+    color: white;
+    position: relative;
+    top: -320px;
+    left: 46%;
+    width: 500px;
+    font-family: Mali;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.Chn3{
+    display: none;
+    color: white;
+    position: relative;
+    top: -320px;
+    left: 46%;
+    width: 500px;
+    font-family: Mali;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.img1{
     display: inline-block;
     position: relative;
-    top: -20px;
-    left: 55%;
+    top: 20px;
+    left: 50%;
     width: 30%;
     border: 5px solid white;
+}
+
+.img2{
+    display: none;
+    position: relative;
+    top: 20px;
+    left: 50%;
+    width: 30%;
+    border: 5px solid white;
+}
+
+.btn{
+    font-family: NerkoOne;
+    font-size: 17px;
+    color: white;
+    display: inline-block;
+    position: relative;
+    top: -435px;
+    left: 82%;
+    background-color: #009952;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.Next{
+    position: relative;
+    top: -10.5px;
+    left: 93%;
+    margin-bottom: 8px;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #009952;
+    border-radius: 5px;
+    
+}
+
+.Next a{
+    color: #dbf5f2;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: NerkoOne;
 }

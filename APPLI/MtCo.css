@@ -22,11 +22,11 @@ body{
     background: linear-gradient( #44b496, #065548) fixed;
     max-width: 100%;
     background-attachment: fixed;
-    background-repeat: no-repeat, no-repeat;
-    background-position: 0% 20%, 0% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
-a{
+.home a{
     text-decoration: none;
     color: aliceblue;
     font-family: NerkoOne;
@@ -41,14 +41,14 @@ a{
 h1{
     display: inline-block;
     position: relative;
-    left: 430px;
+    left: 420px;
     font-family: NerkoOne;
     font-size: 50px;
     color: white;
     text-shadow:-5px 4px #04766b;
     letter-spacing: 5px;
     margin: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 h2{
@@ -63,11 +63,23 @@ h2{
     text-align: center;
 }
 
+p{
+    display: inline-block;
+    position: relative;
+    top: -100px;
+    left: 52%;
+    width: 200px;
+    font-family: Mali;
+    text-align: justify;
+    font-size: 25px;
+    color: white;
+}
+
 table{
     display: inline-block;
     position: relative;
-    top: -120px;
-    left: -350px;
+    top: -90px;
+    left: -600px;
     background-color: white;
     width: 550px;
 }
@@ -80,9 +92,9 @@ td{
 form{
     display: grid;
     position: relative;
-    top: -70px;
+    top: -90px;
     left: 100px;
-    grid-template-columns: 150px 150px 150px  150px;
+    grid-template-columns: 150px 150px 150px;
     gap: 10px;
 }
 
@@ -191,35 +203,85 @@ input{
     display: none;
     color: white;
     position: relative;
-    top: -250px;
-    left: 56%;
+    top: -320px;
+    left: 45%;
+    width: 450px;
     font-family: Mali;
     font-size: 35px;
 }
 
 .Chn2{
     display: none;
+    color: white;
     position: relative;
-    top: -100px;
-    left: 55%;
+    top: -320px;
+    left: 46%;
+    width: 500px;
     font-family: Mali;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .Chn3{
     display: none;
+    color: white;
     position: relative;
-    top: -100px;
-    left: 55%;
+    top: -320px;
+    left: 46%;
+    width: 500px;
     font-family: Mali;
-    font-size: 25px;
+    font-size: 35px;
 }
 
-img{
+.img1{
     display: inline-block;
     position: relative;
-    top: -20px;
-    left: 55%;
+    top: 20px;
+    left: 50%;
     width: 30%;
     border: 5px solid white;
+}
+
+.img2{
+    display: none;
+    position: relative;
+    top: 20px;
+    left: 50%;
+    width: 30%;
+    border: 5px solid white;
+}
+
+.btn{
+    font-family: NerkoOne;
+    font-size: 17px;
+    color: white;
+    display: inline-block;
+    position: relative;
+    top: -430px;
+    left: 82%;
+    background-color: #009952;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.Next{
+    position: relative;
+    top: -95.7px;
+    left: 93%;
+    margin-bottom: 8px;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #009952;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Next a{
+    color: #dbf5f2;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: NerkoOne;
 }
