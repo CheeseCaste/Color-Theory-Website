@@ -89,6 +89,8 @@ h2{
 td img{
     position: relative;
     left: 40px;
+    margin-top: 370px;
+    margin-bottom: 50px;
     width: 300px;
 }
 
@@ -103,6 +105,8 @@ img{
     top: -20px;
     left: 45px;
     width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .img2{

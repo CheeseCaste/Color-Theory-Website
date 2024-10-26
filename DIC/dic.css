@@ -91,6 +91,42 @@ input[type=text]:focus{
     color: aliceblue;
 }
 
+
+.Btn {
+    display: none;
+    position: fixed;
+    bottom: 90%;
+    left: 95%;
+    top: 90%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #019082;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.Btn:hover {
+    background-color: aquamarine;
+}
+
+.arrow{
+    position: relative;
+    bottom: 8px;
+    border: solid #ffffff;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.up{
+    position: relative;
+    transform: rotate(-135deg);
+}
+
 @media screen and (max-width: 768px){
     input[type=text] {
         padding-left: 10px; 

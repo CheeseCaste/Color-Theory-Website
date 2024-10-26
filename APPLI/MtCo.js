@@ -206,21 +206,34 @@ function checkAnswer(){
         else{
             ch6.style.display = "inline-block";
         }
-}
 
-  if(g1 == 1 && g2 == 1 && g3 == 1 && g4 == 1 && g5 == 1 && g6 == 1 && g7 == 1){
+        if(g1 == 1 && g2 == 1 && g3 == 1 && g4 == 1 && g5 == 1 && g6 == 1 && g7 == 1){
     const Chn1 = document.getElementById('Chn1');
 
     Chn1.style.display = 'inline-block';
     confet();
     g=0;
-    g1--;
-    g2--;
-    g3--;
-    g4--;
-    g5--;
-    g6--;
-    g7--;
+    if (g1==1){
+      g1--;
+    }
+    if (g2==1){
+      g2--;
+    }
+    if (g3==1){
+      g3--;
+    }
+    if (g4==1){
+      g4--;
+    }
+    if (g5==1){
+      g5--;
+    }
+    if (g6==1){
+      g6--;
+    }
+    if (g7==1){
+      g7--;
+    }
 }
 
   else if((g>2)&&(g<7)){
@@ -228,13 +241,27 @@ function checkAnswer(){
 
     Chn2.style.display = 'inline-block';
     g=0;
-    g1=0;
-    g2=0;
-    g3=0;
-    g4=0;
-    g5=0;
-    g6=0;
-    g7=0;
+    if (g1==1){
+      g1--;
+    }
+    if (g2==1){
+      g2--;
+    }
+    if (g3==1){
+      g3--;
+    }
+    if (g4==1){
+      g4--;
+    }
+    if (g5==1){
+      g5--;
+    }
+    if (g6==1){
+      g6--;
+    }
+    if (g7==1){
+      g7--;
+    }
   }
 
   else if(g<=2){
@@ -242,14 +269,29 @@ function checkAnswer(){
 
     Chn3.style.display = 'inline-block';
     g=0;
-    g1=0;
-    g2=0;
-    g3=0;
-    g4=0;
-    g5=0;
-    g6=0;
-    g7=0;
+    if (g1==1){
+      g1--;
+    }
+    if (g2==1){
+      g2--;
+    }
+    if (g3==1){
+      g3--;
+    }
+    if (g4==1){
+      g4--;
+    }
+    if (g5==1){
+      g5--;
+    }
+    if (g6==1){
+      g6--;
+    }
+    if (g7==1){
+      g7--;
+    }
   }
+}
 
   console.log(g1, g2, g3, g4, g5, g6, g7);
 
