@@ -8,7 +8,6 @@ function myFunction() {
   document.getElementById('myprogress').style.width = scrolled + "%";
 }
 
-var tinycolor = require("tinycolor2");
 const rp = document.querySelector('input[type="color"]');
 const resultBox1 = document.getElementById('resultBox1');
 const resultBox2 = document.getElementById('resultBox2');
