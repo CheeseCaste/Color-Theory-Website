@@ -96,6 +96,13 @@ body{
     z-index: 2;
 }
 
+h2{
+    font-family: Mali;
+    font-size: 45px;
+    color: #00342e;
+    text-align: center;
+}
+
 .Lesson{
     padding-top: 100px;
 }
