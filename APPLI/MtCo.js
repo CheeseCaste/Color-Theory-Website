@@ -321,4 +321,6 @@ btn.addEventListener('click', function(){
     img2.style.display = "none";
     m=0;
   }
+
+ 
 });
